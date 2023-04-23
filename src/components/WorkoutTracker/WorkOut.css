@@ -1,0 +1,86 @@
+/* WorkOut.css */
+
+.workout-tracker {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.workout-tracker__title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.workout-tracker__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.workout-tracker__input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.workout-tracker__button {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 200px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.workout-tracker__button:hover{
+  background-color: aqua;
+  transition: .5s ease;
+}
+
+.workout-tracker__list {
+  list-style: none;
+  padding: 0;
+}
+
+.workout-tracker__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.workout-tracker__workout {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.workout-tracker__sets,
+.workout-tracker__reps {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.workout-tracker__remove-button {
+  padding: 5px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
