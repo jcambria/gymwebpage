@@ -52,16 +52,24 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <a href="#home" onClick={() => setToggleMenu(false)}>Home</a>
+                <a href="#home" onClick={() => setToggleMenu(false)}>
+                  Home
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#about" onClick={() => setToggleMenu(false)} >What We Offer</a>
+                <a href="#about" onClick={() => setToggleMenu(false)}>
+                  What We Offer
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#ourExperts" onClick={() => setToggleMenu(false)} >Our Experts</a>
+                <a href="#ourExperts" onClick={() => setToggleMenu(false)}>
+                  Our Experts
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#contact" onClick={() => setToggleMenu(false)} >Contact</a>
+                <a href="#contact" onClick={() => setToggleMenu(false)}>
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
