@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src="https://images.cooltext.com/5654391.png" alt="" />
+        <img src="https://images.cooltext.com/5654394.png" alt="" />
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -55,13 +55,13 @@ const Navbar = () => {
                 <a href="#home" onClick={() => setToggleMenu(false)}>Home</a>
               </li>
               <li className="p__opensans">
-                <a href="#about">What We Offer</a>
+                <a href="#about" onClick={() => setToggleMenu(false)} >What We Offer</a>
               </li>
               <li className="p__opensans">
-                <a href="#ourExperts">Our Experts</a>
+                <a href="#ourExperts" onClick={() => setToggleMenu(false)} >Our Experts</a>
               </li>
               <li className="p__opensans">
-                <a href="#contact">Contact</a>
+                <a href="#contact" onClick={() => setToggleMenu(false)} >Contact</a>
               </li>
             </ul>
           </div>
