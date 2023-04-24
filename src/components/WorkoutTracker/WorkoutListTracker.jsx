@@ -53,8 +53,8 @@ const WorkoutListTracker = () => {
   };
 
   return (
-    <div className="workout-tracker" >
-      <h1 className="workout-tracker__title" id="workout">Build Your Workout</h1>
+    <div className="workout-tracker" id="workout">
+      <h1 className="workout-tracker__title">Build Your Workout</h1>
       <form className="workout-tracker__form">
         <input
           className="workout-tracker__input"

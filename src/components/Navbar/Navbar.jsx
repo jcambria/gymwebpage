@@ -19,7 +19,7 @@ const Navbar = () => {
           <a href="#home">Home</a>
         </li>
         <li className="p__opensans">
-          <a href="#whatweoffer">What We Offer</a>
+          <a href="#whatWeOffer">What We Offer</a>
         </li>
         <li className="p__opensans">
           <a href="#ourExperts">Our Experts</a>
@@ -28,7 +28,7 @@ const Navbar = () => {
           <a href="#workout">Build A Workout</a>
         </li>
         <li className="p__opensans">
-          <a href="#contact">Contact</a>
+          <a href="#here">Contact</a>
         </li>
       </ul>
       <div className="app__navbar-login">
@@ -60,7 +60,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="p__opensans">
-                <a href="#about" onClick={() => setToggleMenu(false)}>
+                <a href="#whatWeOffer" onClick={() => setToggleMenu(false)}>
                   What We Offer
                 </a>
               </li>
