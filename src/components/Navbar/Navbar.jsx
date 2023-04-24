@@ -6,13 +6,16 @@ import { BiDumbbell } from "react-icons/bi";
 
 import "./Navbar.css";
 
+import logo from './logo.jpg';
+
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src="https://images.cooltext.com/5654394.png" alt="" />
+        <img src={logo} alt="" />
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -36,13 +39,17 @@ const Navbar = () => {
           Book A Visit
         </a>
         <div />
-        <a href="/" className="p__opensans">
+        <a
+          href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-cscgroup#/"
+          target="_blank"
+          className="p__opensans"
+        >
           Take A Class
         </a>
       </div>
       <div className="app__navbar-smallscreen">
         <RxHamburgerMenu
-          color="#fff"
+          color="black"
           fontSize={27}
           onClick={() => setToggleMenu(true)}
         />

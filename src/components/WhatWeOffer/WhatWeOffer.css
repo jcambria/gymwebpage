@@ -1,0 +1,75 @@
+#what-we-offer {
+    background-color: #aaa;
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 32px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    flex-basis: calc(33.3333% - 40px);
+    margin: 20px;
+  }
+  
+  .offer-item {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .offer-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offer-item.active {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offer-item-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .offer-item-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .offer-item-description {
+    font-size: 16px;
+    color: #777777;
+  }
+  
+  /* Media Queries for Responsive Styling */
+  @media screen and (max-width: 768px) {
+    .col-md-4 {
+      flex-basis: calc(50% - 20px);
+      margin: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .col-md-4 {
+      flex-basis: 100%;
+      margin: 10px 0;
+    }
+  }
+  

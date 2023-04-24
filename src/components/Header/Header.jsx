@@ -13,7 +13,7 @@ const Header = () => {
          As a privately owned health club with 20 years of business experience, Columbus Sports Connection is able to provide a gym that has
           a welcoming atmosphere to those new to fitness as well as those with exercise expertise. We feel that fitness should be part of your lifestyle...
           let us help you get started in the right direction!</p>
-          <button>Learn more</button>
+          <button>Get Started</button>
       </h1>
       <div></div>
     </div>

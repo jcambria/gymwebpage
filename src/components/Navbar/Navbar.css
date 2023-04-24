@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #aaa;
+    background-color: white;
     padding: .1rem 2rem;
     position: fixed; 
     top: 0; 
@@ -32,20 +32,20 @@
 }
 
 .app__navbar-links li {
-    color: white;
+    color: black;
     margin: 0 1rem;
     cursor: pointer; 
 }
 
 .app__navbar-links li a{
-    color: white;
+    color: black;
     /* margin: 0 1rem;
     cursor: pointer;  */
     text-decoration: none;
 }
 
 .app__navbar-links li a:hover {
-    color: red;
+    color: grey;
 }
 
 .app__navbar-login {
