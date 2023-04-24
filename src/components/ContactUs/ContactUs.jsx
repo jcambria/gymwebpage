@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Multiselect from "multiselect-react-dropdown";
 
 import "./ContactUs.css";
 
@@ -29,35 +30,75 @@ const ContactUs = () => {
   };
 
   return (
-    <section>
+    <section id="here">
       <div>
-        <h2>ContactUs</h2>
+        <h2>Personal Training Questionnaire</h2>
         <form ref={form} onSubmit={sendEmail}>
-          <input
+          {/* <input
             type="text"
-            placeholder="full name"
+            placeholder="Full name"
             name="user_name"
             required
-          />
+          /> */}
           <input type="email" placeholder="Email" name="user_email" required />
-          <input type="text" placeholder="Subject" name="subject" required />
-          <input type="text" placeholder="age" name="user_age" required />
-          <label htmlFor="fitness_level">Tell Us About Yourself</label>
+          {/* <input type="text" placeholder="Subject" name="subject" required /> */}
+          <input
+            type="number"
+            placeholder="Age"
+            name="user_age"
+            required
+            min="0"
+            max="120"
+          />
+          <label htmlFor="maleOrFemale">Tell Us About Yourself</label>
           <select id="fitness_level" name="user_gender" required>
             <option value="">Select Your Gender</option>
-            <option value="beginner">Male</option>
-            <option value="intermediate">Female</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
           </select>
+          <label htmlFor="trainerPreference">
+            Would you like a Male or Female Trainer?
+          </label>
+          <select id="fitness_level" name="user_preference" required>
+            <option value="">Select An Option</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="No Preference">No Preference</option>
+          </select>
+
+          <label htmlFor="trainingDays">What is a good day to Train?</label>
+          <select id="fitness_days" name="user_trainingDays" required>
+            <option value="">Select A Day</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+          </select>
+
           <label htmlFor="fitness_level">Fitness Level</label>
           <select id="fitness_level" name="user_fitnessLevel" required>
             <option value="">Select Fitness Level</option>
-            <option value="beginner">Beginner </option>
-            <option value="intermediate">Intermediate</option>
-            <option value="advanced">Advanced</option>
+            <option value="Beginner">Beginner </option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
           </select>
-          
-          <textarea name="message" cols={30} rows={10}></textarea>
-          <button>Send Message</button>
+          <label htmlFor="fitness_objectives">Fitness Goals</label>
+          <select id="fitness_level" name="user_goals" required>
+            <option value="">Select An Option</option>
+            <option value="Lose Weight">Lose Weight </option>
+            <option value="Gain Muscle">Gain Muscle</option>
+            <option value="Athletic Enhancement">Athletic Enhancement</option>
+            <option value="Improve overall health and fitness level">
+              Improve overall health and fitness level
+            </option>
+          </select>
+          <h3>Tell Us More About Your Goals</h3>
+
+          <textarea name="message" cols={20} rows={5}></textarea>
+          <button>Send</button>
         </form>
       </div>
     </section>

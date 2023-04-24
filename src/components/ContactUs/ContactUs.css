@@ -1,73 +1,74 @@
-/* Style for the section element */
-section {
-    margin: 20px;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Style for the div element within the section */
-section div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* Style for the h2 element within the div */
-section div h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-/* Style for the form element within the div */
-section div form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Add appropriate styles to section container */
+#here {
+    padding: 60px;
+    
+  }
+  h2{
+    text-align: center;
+  }
+  
+  /* Style form container */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Style form input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
     width: 100%;
-}
-
-/* Style for the input elements within the form */
-section div form input,
-section div form textarea {
-    width: 100%;
-    max-width: 300px;
     padding: 10px;
     margin-bottom: 10px;
     border: none;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Style for the input elements' placeholder text */
-section div form input::placeholder,
-section div form textarea::placeholder {
-    color: #999;
-}
-
-/* Style for the button element within the form */
-section div form button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  select:focus,
+  textarea:focus {
+    border-bottom-color: #3498db;
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
     font-weight: bold;
+  }
+  
+  /* Style form select options */
+  select option {
+    font-weight: normal;
+  }
+  
+  /* Style form submit button */
+  button {
+    display: block;
+    margin: 0 auto; /* Add margin: 0 auto; to center horizontally */
+    
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-/* Hover style for the button element */
-section div form button:hover {
-    background-color: #0056b3;
-}
-
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-    section div form input,
-    section div form textarea {
-        max-width: 100%;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive styles for smaller devices */
+  @media (max-width: 768px) {
+    form {
+      padding: 10px;
     }
-}
+  }
+  

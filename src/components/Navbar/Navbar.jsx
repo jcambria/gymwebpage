@@ -75,7 +75,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="p__opensans">
-                <a href="#contact" onClick={() => setToggleMenu(false)}>
+                <a href="#here" onClick={() => setToggleMenu(false)}>
                   Contact
                 </a>
               </li>
