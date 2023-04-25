@@ -1,0 +1,45 @@
+/* Footer Container */
+.footer-container {
+    background-image: linear-gradient(to right, #d5700d, #222); /* Linear gradient background */
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap; /* Allow footer sections to wrap on smaller screens */
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Footer Section */
+  .footer-section {
+    flex: 1;
+    padding: 10px;
+    text-align: center; /* Center align footer sections on smaller screens */
+  }
+  
+  /* Footer Heading */
+  .footer-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Text */
+  .footer-text {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Footer Icon */
+  .footer-icon {
+    margin-right: 5px;
+  }
+  
+  /* Footer Link */
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Footer Link Hover Effect */
+  .footer-link:hover {
+    color: #00b4d8; /* Change color on hover */
+  }
+  
