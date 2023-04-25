@@ -13,7 +13,7 @@ const WhatWeOffer = () => {
   return (
 <section id="what-we-offer">
   <div id="whatWeOffer" className="container">
-    <h2 className="section-title">What We Offer</h2>
+    <h2 className="section-title-healthclub">At Our Health Club</h2>
     <div className="row">
       <div className="col-md-4">
         <div

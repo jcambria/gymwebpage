@@ -11,6 +11,7 @@ import PersonalTrainingForm from './components/Questionaire/PersonalTrainingForm
 import ContactUs from './components/ContactUs/ContactUs';
 import Classes from './components/WhatWeOffer/WhatWeOffer';
 import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer';
+import Trainers from './components/Trainers/Trainers';
 
 // const images = [
 //     'https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2021-12/211208-working-out-stock-mn-1310-55e1c7.jpg',
@@ -27,6 +28,7 @@ const App = () => {
         <Navbar />
         <Header/>
         <WhatWeOffer />
+        <Trainers />
         <WorkoutListTracker />
         <ContactUs />
         {/* <PersonalTrainingForm /> */}

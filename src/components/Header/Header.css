@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 115vh;
 }
 
 .welcome h1 {
@@ -64,11 +64,21 @@ body{
     background-color: #d5700d;
   }
   
+ 
+  
+  
+  
+  .p__intro::before,
+  .p__intro::after {
+    width: 100px;
+  }
+  
   @media (max-width: 768px) {
-    
-    .welcome h1{
+    .welcome h1 {
       height: 78vh;
+      
     }
+  
     .p__intro {
       font-size: 16px;
       padding: 15px;
@@ -79,3 +89,135 @@ body{
       width: 70px;
     }
   }
+  
+  @media (max-width: 480px) {
+    .welcome h1 {
+      height: 90vh;
+      
+    }
+  
+    .p__intro {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .p__intro::before,
+    .p__intro::after {
+      width: 50px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .welcome h1 {
+      height: 90vh;
+      margin-top: -55px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .welcome h1 {
+      height: 30vh;
+      margin-top: -500px;
+    }
+  
+    .p__intro {
+      font-size: 16px;
+      padding: 15px;
+    }
+  
+    .p__intro::before,
+    .p__intro::after {
+      width: 70px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .welcome h1 {
+      height: 80vh;
+      
+      
+    }
+  
+    .p__intro {
+      font-size: 16px;
+      padding: 15px;
+    }
+  
+    .p__intro::before,
+    .p__intro::after {
+      width: 70px;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1366px) {
+    .welcome h1 {
+      height: 80vh;
+      
+      
+    }
+  
+    .p__intro {
+      font-size: 16px;
+      padding: 15px;
+    }
+  
+    .p__intro::before,
+    .p__intro::after {
+      width: 70px;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait) {
+    .welcome h1 {
+      height: 90vh;
+      
+    }
+  
+    .p__intro {
+      font-size: 18px;
+      padding: 20px;
+    }
+  
+    .p__intro::before,
+    .p__intro::after {
+      width: 80px;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1366px) and (orientation: landscape) {
+    .welcome h1 {
+      height: 80vh;
+      
+      
+    }
+  
+    .p__intro {
+      font-size: 18px;
+      padding: 20px;
+    }
+  
+    .p__intro::before,
+    .p__intro::after {
+      width: 80px;
+    }
+  }
+  
+  @media (min-width: 1367px) {
+    .welcome h1 {
+      height: 100vh;
+    }
+  
+    .p__intro {
+      font-size: 18px;
+      padding: 20px;
+    }
+  
+    .p__intro
+    ::before,
+.p__intro::after {
+width: 100px;
+}
+}
+
+
+  

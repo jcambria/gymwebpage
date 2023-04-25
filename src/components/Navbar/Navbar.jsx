@@ -25,7 +25,7 @@ const Navbar = () => {
           <a href="#whatWeOffer">What We Offer</a>
         </li>
         <li className="p__opensans">
-          <a href="#ourExperts">Our Experts</a>
+          <a href="#trainers">Our Experts</a>
         </li>
         <li className="p__opensans">
           <a href="#workout">Build A Workout</a>
@@ -72,7 +72,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="p__opensans">
-                <a href="#ourExperts" onClick={() => setToggleMenu(false)}>
+                <a href="#trainers" onClick={() => setToggleMenu(false)}>
                   Our Experts
                 </a>
               </li>
