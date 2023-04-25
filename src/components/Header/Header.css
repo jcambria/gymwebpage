@@ -21,7 +21,7 @@ body{
     font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 12px;
-    background-image: linear-gradient(to right, #F28C28, #F28C28, #A9A9A9);
+    background-image: linear-gradient(to right, #d5700d, #d5700d, #A9A9A9);
     -webkit-background-clip: text;
     color: transparent;
     
@@ -51,7 +51,7 @@ body{
     width: 100px;
     height: 3px;
     margin: 0 auto;
-    background-color: #F28C28;
+    background-color: #d5700d;
     margin-bottom: 10px;
   }
   
@@ -61,7 +61,7 @@ body{
     width: 50px;
     height: 2px;
     margin: 10px auto 0;
-    background-color: #F28C28;
+    background-color: #d5700d;
   }
   
   @media (max-width: 768px) {

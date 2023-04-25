@@ -27,14 +27,14 @@
 .pricingCardContainer {
   display: flex; /* Use flexbox for horizontal spacing */
   justify-content: space-between; /* Spread pricing cards evenly */
-  gap: 50px; /* Add horizontal spacing between pricing cards */
+  gap: 80px; /* Add horizontal spacing between pricing cards */
   margin-top: 16px; /* Add margin for separation from button */
 }
 
 .pricingCard {
   flex: 1; /* Allow pricing cards to grow to fill available space */
   background-color: #f8f9fa;
-  padding: 26px;
+  padding: 30px;
   border-radius: 4px;
 }
 

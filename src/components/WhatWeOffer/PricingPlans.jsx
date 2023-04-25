@@ -30,7 +30,7 @@ const PricingComponent = () => {
                 <li>Feature 2</li>
                 <li>Feature 3</li>
               </ul>
-              <button>Sign Up</button>
+              {/* <button>Sign Up</button> */}
             </div>
             <div className="pricingCard">
               <h3>Plan 2</h3>
@@ -40,7 +40,7 @@ const PricingComponent = () => {
                 <li>Feature 2</li>
                 <li>Feature 3</li>
               </ul>
-              <button>Sign Up</button>
+              {/* <button>Sign Up</button> */}
             </div>
             <div className="pricingCard">
               <h3>Plan 3</h3>
@@ -50,7 +50,7 @@ const PricingComponent = () => {
                 <li>Feature 2</li>
                 <li>Feature 3</li>
               </ul>
-              <button>Sign Up</button>
+              {/* <button>Sign Up</button> */}
             </div>
           </div>
         </div>

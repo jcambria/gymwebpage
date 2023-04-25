@@ -4,7 +4,10 @@
     
   }
   h2{
+    font-size: 24px;
     text-align: center;
+    letter-spacing: 2px;
+    color: #d5700d;
   }
   
   /* Style form container */
