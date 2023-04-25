@@ -1,0 +1,80 @@
+/* CSS for the show/hide button */
+.showButton,
+.hideButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hideButton {
+  background-color: #dc3545;
+}
+
+/* CSS for the pricing container */
+.pricingContainer {
+  margin-top: 24px;
+}
+
+.pricingTitle {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.pricingCardContainer {
+  display: flex; /* Use flexbox for horizontal spacing */
+  justify-content: space-between; /* Spread pricing cards evenly */
+  gap: 50px; /* Add horizontal spacing between pricing cards */
+  margin-top: 16px; /* Add margin for separation from button */
+}
+
+.pricingCard {
+  flex: 1; /* Allow pricing cards to grow to fill available space */
+  background-color: #f8f9fa;
+  padding: 26px;
+  border-radius: 4px;
+}
+
+.pricingCard h3 {
+  font-size: 24px;
+}
+
+.pricingCard p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.pricingCard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pricingCard ul li {
+  margin-bottom: 4px;
+}
+
+.pricingCard button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 767px) {
+  .pricingCardContainer {
+    flex-direction: column; /* Stack pricing cards vertically on mobile */
+    gap: 16px; /* Reset gap for vertical spacing */
+  }
+
+  .pricingCard {
+    margin-bottom: 16px;
+  }
+}

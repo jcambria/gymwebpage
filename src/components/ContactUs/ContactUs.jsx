@@ -32,7 +32,7 @@ const ContactUs = () => {
   return (
     <section id="here">
       <div>
-        <h2>Personal Training Questionnaire</h2>
+        <h2>Training Questionnaire</h2>
         <form ref={form} onSubmit={sendEmail}>
           {/* <input
             type="text"
@@ -51,6 +51,7 @@ const ContactUs = () => {
             max="120"
           />
           <label htmlFor="maleOrFemale">Tell Us About Yourself</label>
+          <input type="text" placeholder="Full Name" name="user_name" required></input>
           <select id="fitness_level" name="user_gender" required>
             <option value="">Select Your Gender</option>
             <option value="male">Male</option>

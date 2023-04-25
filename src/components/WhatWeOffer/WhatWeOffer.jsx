@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./WhatWeOffer.css"; 
+import PricingComponent from "./PricingPlans";
 
 const WhatWeOffer = () => {
   const [activeOffer, setActiveOffer] = useState("");
@@ -134,6 +135,7 @@ const WhatWeOffer = () => {
           </p>
         </div>
       </div>
+      <PricingComponent />
     </div>
   </div>
 </section>

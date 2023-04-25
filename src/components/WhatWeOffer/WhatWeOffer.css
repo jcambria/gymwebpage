@@ -1,5 +1,5 @@
 #what-we-offer {
-    background-color: #aaa;
+    background-color: white;
     padding: 60px 0;
   }
   
@@ -39,6 +39,7 @@
     transform: translateY(-5px);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   }
+
   
   .offer-item-image {
     width: 100%;
@@ -56,6 +57,11 @@
   .offer-item-description {
     font-size: 16px;
     color: #777777;
+  }
+
+  .membership{
+    font-size: 20px;
+    
   }
   
   /* Media Queries for Responsive Styling */
