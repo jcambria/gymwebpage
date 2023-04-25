@@ -13,6 +13,7 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
+    color: #bb630b ;
   }
 
   
@@ -61,7 +62,7 @@
   .trainer-website {
     display: block;
     text-align: center;
-    background-color: #007bff;
+    background-color: #bb630b;
     color: #fff;
     padding: 10px;
     text-decoration: none;

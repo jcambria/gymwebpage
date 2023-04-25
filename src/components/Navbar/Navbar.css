@@ -23,6 +23,7 @@
 
 .app__navbar-links {
     flex: 1;
+    font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +81,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: black;
+    background: #6f6f6f;
     transition: .8s ease;
 
     flex-direction: column;
