@@ -13,7 +13,7 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
-    color: #e57504f1 ;
+    color: #de6f23 ;
   }
 
   
@@ -62,7 +62,7 @@
   .trainer-website {
     display: block;
     text-align: center;
-    background-color: #e57504f1;
+    background-color: #de6f23;
     color: #fff;
     padding: 10px;
     text-decoration: none;
@@ -71,7 +71,7 @@
   
   /* Trainer website link hover effect */
   .trainer-website:hover {
-    background-color: #0056b3;
+    background-color: #ec8541;
   }
   
   /* Trainer card hover effect */

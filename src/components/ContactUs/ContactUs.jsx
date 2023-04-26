@@ -30,7 +30,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section id="here">
+    <section>
       <div>
         <h2>Training Questionnaire</h2>
         <form ref={form} onSubmit={sendEmail}>

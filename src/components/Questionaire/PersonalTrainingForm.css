@@ -13,7 +13,7 @@
     text-align: center;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
-    color: #007bff;
+    color: #de6f23;
   }
   
   .form {
@@ -63,7 +63,7 @@
     display: block;
     width: 100%;
     padding: 0.75rem;
-    background-color: #007bff;
+    background-color: #de6f23;
     color: #fff;
     font-size: 1rem;
     font-weight: bold;
@@ -74,7 +74,7 @@
   }
   
   .form-button:hover {
-    background-color: #0056b3;
+    background-color: #de6f23;
   }
   
   @media (max-width: 768px) {

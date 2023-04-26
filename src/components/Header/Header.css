@@ -19,14 +19,15 @@ body{
     font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 12px;
-    background-image: linear-gradient(to right, #e57504f1, #d5700d, #6f6f6f);
+    background-image: linear-gradient(to right, #de6f23, #de6f23, #de6f23, #6f6f6f);
     -webkit-background-clip: text;
     color: transparent;
     
 }
 
 .welcome .p__text {
-    font-size: 16px;
+    letter-spacing: 4px;
+    font-size: 20px;
     line-height: 1.4;
     color: #6f6f6f;
 }
@@ -49,7 +50,7 @@ body{
     width: 100px;
     height: 3px;
     margin: 0 auto;
-    background-color: #e57504f1;
+    background-color: #de6f23;
     margin-bottom: 10px;
   }
   
@@ -59,7 +60,7 @@ body{
     width: 50px;
     height: 2px;
     margin: 10px auto 0;
-    background-color: #e57504f1;
+    background-color: #de6f23;
   }
   
  

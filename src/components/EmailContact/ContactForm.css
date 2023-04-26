@@ -15,6 +15,7 @@
   
   .thank-you-heading,
   .form-heading {
+    color: #de6f23;
     font-size: 24px;
     margin-bottom: 20px;
   }
@@ -47,7 +48,7 @@
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #007bff;
+    background-color: #de6f23;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -68,7 +69,7 @@
   }
   
   .thank-you-heading {
-    color: #007bff;
+    color: #de6f23;
   }
   
   .form-container {

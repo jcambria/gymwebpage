@@ -31,7 +31,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section id="here/contact" className="contact-section">
+    <section id="here" className="contact-section">
       <div className="contact-container">
         {showMessage ? (
           <div className="thank-you-container">
