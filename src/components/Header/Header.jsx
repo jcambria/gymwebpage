@@ -9,7 +9,9 @@ const Header = () => {
         Columbus Sports Connection <br />
         <p className="p__text"> A Total Fitness Facility.</p>
         <p className="p__intro">
-          Columbus Sports Connection, nestled in Clintonville, is a premier workout facility with 20 years of experience. As a locally owned health club, we offer a welcoming atmosphere for fitness newbies and seasoned enthusiasts alike. Join us at Columbus Sports Connection to start your fitness journey with confidence!
+          Columbus Sports Connection, nestled in Clintonville, is a premier workout facility with 20 years of experience. As a locally owned health club, we offer a welcoming atmosphere
+           for fitness newbies and seasoned enthusiasts alike. 
+           Join us at Columbus Sports Connection to start your fitness journey with confidence!
         </p>
         <button className="header__button">Get Started</button>
       </h1>
