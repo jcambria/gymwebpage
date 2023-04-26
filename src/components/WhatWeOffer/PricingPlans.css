@@ -11,7 +11,7 @@
 }
 
 .hideButton {
-  background-color: #bb630b;
+  background-color: #e57504f1;
 }
 
 /* CSS for the pricing container */
@@ -24,21 +24,62 @@
   margin-bottom: 16px;
 }
 
+/* CSS code */
+.findoutmore {
+  display: inline-block;
+  padding: 8px 8px; /* Decrease padding to make it smaller */
+  background-color: #6f6f6f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 12px; /* Decrease font size to make it smaller */
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.findoutmore:hover {
+  background-color: #e57504f1;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 767px) {
+  .findoutmore {
+    font-size: 14px; /* Further decrease font size for smaller screens */
+    padding: 8px 14px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Media query for iPad Air and iPad Mini */
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .findoutmore {
+    font-size: 12px; /* Adjust font size for iPad Air and iPad Mini */
+    padding: 5px 4px; /* Adjust padding for iPad Air and iPad Mini */
+  }
+}
+
+
+
+
+
 .pricingCardContainer {
   display: flex; /* Use flexbox for horizontal spacing */
   justify-content: space-between; /* Spread pricing cards evenly */
-  gap: 80px; /* Add horizontal spacing between pricing cards */
+  gap: 50px; /* Add horizontal spacing between pricing cards */
   margin-top: 16px; /* Add margin for separation from button */
 }
 
+/* CSS code */
 .pricingCard {
-  flex: 1; /* Allow pricing cards to grow to fill available space */
+  flex: 1;
   background-color: #f8f9fa;
-  padding: 30px;
+  padding: 40px;
   border-radius: 4px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
 }
 
+
 .pricingCard h3 {
+  margin-top: 10px;
   font-size: 24px;
 }
 
@@ -53,7 +94,8 @@
 }
 
 .pricingCard ul li {
-  margin-bottom: 4px;
+  margin-bottom: 10px;
+  
 }
 
 .pricingCard button {
@@ -76,5 +118,58 @@
 
   .pricingCard {
     margin-bottom: 16px;
+  }
+}
+
+/* CSS code */
+.more-about-classes {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  text-align: center; /* Center the content */
+}
+
+.more-about-classes a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.more-about-classes a:hover {
+  text-decoration: underline;
+}
+
+.other-offers {
+  font-size: 14px;
+  color: #777;
+  margin-top: 16px;
+  text-align: center; /* Center the content */
+}
+
+.moreOn-memberships {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 8px;
+}
+
+.moreOn-memberships li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  text-align: center; /* Center the content */
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 767px) {
+  .more-about-classes {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+  
+  .other-offers {
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
+  
+  .moreOn-memberships li {
+    font-size: 12px; /* Decrease font size for smaller screens */
   }
 }

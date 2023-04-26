@@ -16,43 +16,69 @@ const PricingComponent = () => {
         className={showPlans ? 'hideButton' : 'showButton'}
         onClick={handleButtonClick}
       >
-        {showPlans ? 'Hide Plans' : 'See our Membership Plans'}
+        {showPlans ? 'Hide Plans' : 'Membership Details'}
       </button>
       {showPlans && (
         <div className="pricingContainer">
-          <h2 className="pricingTitle">Pricing Plans</h2>
+          <h2 className="pricingTitle">Membership Plans</h2>
           <div className="pricingCardContainer">
-            <div className="pricingCard">
-              <h3>Plan 1</h3>
-              <p>$10/month</p>
+          <div className="pricingCard">
+              <h3>Free</h3>
+              <p>One Week</p>
               <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
+                <li>Full Access</li>
+                <li>Child Care</li>
+                <li>Classes</li>
+                <li>Fitness Consultation</li>
               </ul>
-              {/* <button>Sign Up</button> */}
+              <a href="#home" className='findoutmore'>Find out more</a>
             </div>
             <div className="pricingCard">
-              <h3>Plan 2</h3>
-              <p>$20/month</p>
+              <h3>1 Year</h3>
+              <p>$40/month</p>
               <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
+                <li>Full Access</li>
+                <li>Child Care</li>
+                <li>Classes</li>
+                <li>Fitness Consultation</li>
               </ul>
-              {/* <button>Sign Up</button> */}
+              <a href="#home" className='findoutmore'>Find out more</a>
             </div>
             <div className="pricingCard">
-              <h3>Plan 3</h3>
+              <h3>2 Year</h3>
               <p>$30/month</p>
               <ul>
-                <li>Feature 1</li>
-                <li>Feature 2</li>
-                <li>Feature 3</li>
+                <li>Full Access</li>
+                <li>Child Care</li>
+                <li>Classes</li>
+                <li>Fitness Consultation</li>
               </ul>
-              {/* <button>Sign Up</button> */}
+              <a href="#home" className='findoutmore'>Find out more</a>
             </div>
+            {/* <div className="pricingCard">
+              <h3>3 month</h3>
+              <p>$180.000</p>
+              <ul>
+                <li>Full Access</li>
+                <li>Child Care</li>
+                <li>Classes</li>
+                <li>Fitness Consultation</li>
+              </ul>
+              <a href="#home" className='findoutmore'>Find out more</a>
+            </div> */}
+            
           </div>
+          <p className='more-about-classes'>Memebers can take as many classes as they want, all you have to do is <a href="">sign up</a> </p>
+          <p className='other-offers'>Other offers include </p>
+          <div className='moreOn-memberships'> 
+          <li>
+            $10 day pass
+          </li>
+          <li>
+            $10 day pass
+          </li>
+          </div>
+          
         </div>
       )}
     </div>

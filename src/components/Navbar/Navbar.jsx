@@ -6,8 +6,8 @@ import { BiDumbbell } from "react-icons/bi";
 
 import "./Navbar.css";
 
-import logo from './logo.jpg';
-
+import logo from "./logo.jpg";
+import logoO from "./logoO.jpg";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -22,29 +22,41 @@ const Navbar = () => {
           <a href="#home">Home</a>
         </li>
         <li className="p__opensans">
-          <a href="#whatWeOffer">What We Offer</a>
+          <a
+            href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-cscgroup#/"
+            target="_blank"
+          >
+            Class Schedule
+          </a>
         </li>
         <li className="p__opensans">
-          <a href="#trainers">Our Experts</a>
+          <a
+            href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-csckids#/"
+            target="_blank"
+          >
+            Child Care
+          </a>
         </li>
         <li className="p__opensans">
-          <a href="#workout">Build A Workout</a>
+          <a href="#whatWeOffer">Health Club</a>
+        </li>
+        <li className="p__opensans">
+          <a href="#trainers">Trainers</a>
+        </li>
+        <li className="p__opensans">
+          <a href="#workout">Workout</a>
         </li>
         <li className="p__opensans">
           <a href="#here">Contact</a>
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">
-          Book A Visit
+        <a href="#footer" className="p__opensans">
+          Hours
         </a>
         <div />
-        <a
-          href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-cscgroup#/"
-          target="_blank"
-          className="p__opensans"
-        >
-          Take A Class
+        <a href="#footer" className="p__opensans">
+          Location
         </a>
       </div>
       <div className="app__navbar-smallscreen">
@@ -67,18 +79,34 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="p__opensans">
+                <a
+                  href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-cscgroup#/"
+                  target="_blank"
+                >
+                  Class Schedule
+                </a>
+              </li>
+              <li className="p__opensans">
+                <a
+                  href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-csckids#/"
+                  target="_blank"
+                >
+                  Child Care
+                </a>
+              </li>
+              <li className="p__opensans">
                 <a href="#whatWeOffer" onClick={() => setToggleMenu(false)}>
-                  What We Offer
+                  Health Club
                 </a>
               </li>
               <li className="p__opensans">
                 <a href="#trainers" onClick={() => setToggleMenu(false)}>
-                  Our Experts
+                  Trainers
                 </a>
               </li>
               <li className="p__opensans">
                 <a href="#workout" onClick={() => setToggleMenu(false)}>
-                  Build A Workout
+                  Workout
                 </a>
               </li>
               <li className="p__opensans">

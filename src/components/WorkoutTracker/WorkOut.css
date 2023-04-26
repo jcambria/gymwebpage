@@ -9,7 +9,7 @@
 .workout-tracker__title {
   font-family: Georgia, 'Times New Roman', Times, serif;
   letter-spacing: 2px;
-  color: #bb630b;
+  color: #e57504f1;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
@@ -37,7 +37,7 @@
   width: 100%;
   max-width: 200px;
   padding: 10px;
-  background-color: #bb630b;
+  background-color: #e57504f1;
   color: #fff;
   border: none;
   border-radius: 200px;
@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 .workout-tracker__button:hover{
-  background-color: #f09030;
+  background-color: #d7812b;
   transition: .5s ease;
 }
 
