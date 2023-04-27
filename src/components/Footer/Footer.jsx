@@ -1,55 +1,58 @@
-import React from 'react';
-import { FaClock, FaMapMarkerAlt, FaPhone } from 'react-icons/fa'; // Import icons from react-icons/fa
-import './Footer.css'; // Import the CSS file for styling
+import React from "react";
+import {
+  FaClock,
+  FaMapMarkerAlt,
+  FaPhone,
+  FaLinkedin,
+  FaFacebook,
+  FaTwitter,
+} from "react-icons/fa"; // Import icons from react-icons/fa
+import "./Footer.css"; // Import the CSS file for styling
 
 const Footer = () => {
   return (
-    <footer className="footer-container">
-      <div className="footer-section">
-        <h4 className="footer-heading">Hours</h4>
-        <p className="footer-text">
-          <FaClock className="footer-icon" />
-          Monday - Friday: 9am - 5pm
-        </p>
-        <p className="footer-text">
-          <FaClock className="footer-icon" />
-          Saturday - Sunday: Closed
-        </p>
-      </div>
-      <div className="footer-section">
-        <h4 className="footer-heading">Location</h4>
-        <p className="footer-text">
-          <FaMapMarkerAlt className="footer-icon" />
-          1234 Elm Street
-        </p>
-        <p className="footer-text">
-          <FaMapMarkerAlt className="footer-icon" />
-          Springfield, IL 62704
-        </p>
-      </div>
-      <div className="footer-section">
-        <h4 className="footer-heading">Contact</h4>
-        <p className="footer-text">
-          <FaPhone className="footer-icon" />
-          Phone:{' '}
-          <a href="tel:+15551234567" className="footer-link">
-            (555) 123-4567
-          </a>
-        </p>
-        <p className="footer-text">
-          <FaMapMarkerAlt className="footer-icon" />
-          Address:{' '}
-          <a
-            href="https://www.google.com/maps?q=1234+Elm+Street,+Springfield,+IL+62704"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="footer-link"
-          >
-            1234 Elm Street, Springfield, IL 62704
-          </a>
-        </p>
-      </div>
-    </footer>
+<body>
+  <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Hours</h4>
+  	 			<ul>
+  	 				<li><a href="#">Home</a></li>
+  	 				<li><a href="#">About</a></li>
+  	 				<li><a href="#">Pricing</a></li>
+  	 				<li><a href="#">Privacy Policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Address</h4>
+  	 			<ul>
+  	 				<li><a href="#">Shipping</a></li>
+  	 				<li><a href="#">Returns</a></li>
+  	 				<li><a href="#">Order Status</a></li>
+  	 				<li><a href="#">Payment Options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		{/* <div class="footer-col">
+  	 			<h4>Address</h4>
+  	 			<ul>
+  	 				<li><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate adipisci quia ab omnis id ipsum quae inventore </a></li>
+  	 			</ul>
+  	 		</div> */}
+  	 		<div class="footer-col">
+  	 			{/* <h4>follow us</h4> */}
+  	 			<div class="social-links">
+  	 				<a href="#"> <FaFacebook /> <i class="fab fa-google"></i></a>
+  	 				<a href="#"> <FaLinkedin /> <i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"> <FaTwitter /> <i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+</body>
   );
 };
 
