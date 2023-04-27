@@ -12,10 +12,10 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_gej3c17",
-        "template_92cw8a4",
+        "service_uuuqf9a",
+        "template_9ng94ba",
         form.current,
-        "C0u2SIF4K_oEnE7br"
+        "JPxupsA3jRJJwF3QY"
       )
       .then(
         (result) => {
@@ -71,7 +71,7 @@ const ContactUs = () => {
                 rows={5}
                 className="form-textarea"
               ></textarea>
-              <button className="form-button">Send</button>
+              <button className="form-button1">Send</button>
             </form>
           </div>
         )}

@@ -9,13 +9,20 @@ const Header = () => {
         Columbus Sports Connection <br />
         <p className="p__text"> A Total Fitness Facility.</p>
         <p className="p__intro">
-          Columbus Sports Connection, nestled in Clintonville, is a premier workout facility with 20 years of experience. As a locally owned health club, we offer a welcoming atmosphere
-           for fitness newbies and seasoned enthusiasts alike. 
-           Join us at Columbus Sports Connection to start your fitness journey with confidence!
+          Locally owned and operated in the heart of Clintonville since 1989,
+          Columbus Sports Connection provides a supportive and inclusive
+          environment for individuals of all fitness levels. Our facility
+          features a vast array of quality equipment, as well as spacious
+          workout areas designed to optimize your fitness experience. Our team
+          of certified trainers and group exercise instructors is passionate
+          about helping you achieve your health and fitness goals. Whether
+          you're a seasoned athlete or just starting on your fitness journey, we
+          have everything you need to succeed. Visit us today and experience for
+          yourself why Columbus Sports Connection has been the premier gym in
+          town for over 30 years.
         </p>
-        <button className="header__button">Get Started</button>
+        <a className="header__contactlink" href="#here">Contact Us</a> 
       </h1>
-      <div></div>
     </div>
   );
 };

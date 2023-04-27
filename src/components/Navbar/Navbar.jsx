@@ -22,22 +22,6 @@ const Navbar = () => {
           <a href="#home">Home</a>
         </li>
         <li className="p__opensans">
-          <a
-            href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-cscgroup#/"
-            target="_blank"
-          >
-            Class Schedule
-          </a>
-        </li>
-        <li className="p__opensans">
-          <a
-            href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-csckids#/"
-            target="_blank"
-          >
-            Child Care
-          </a>
-        </li>
-        <li className="p__opensans">
           <a href="#whatWeOffer">Health Club</a>
         </li>
         <li className="p__opensans">
@@ -51,13 +35,21 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#footer" className="p__opensans">
-          Hours
-        </a>
+      
+          <a
+            href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-cscgroup#/"
+            target="_blank"
+          >
+            Class Schedule
+          </a>
+        
         <div />
-        <a href="#footer" className="p__opensans">
-          Location
-        </a>
+        <a
+            href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-csckids#/"
+            target="_blank"
+          >
+            Child Care
+          </a>
       </div>
       <div className="app__navbar-smallscreen">
         <RxHamburgerMenu
