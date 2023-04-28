@@ -19,19 +19,21 @@ const PricingComponent = () => {
       </button>
       {showPlans && (
         <div className="pricingContainer">
-          <h2 className="pricingTitle">Membership Plans</h2>
+          <h2 className="pricingTitle" id="memberships">
+            Membership Plans
+          </h2>
           <div className="pricingCardContainer">
             <div className="pricingCard">
               <h3>Free</h3>
               <p>One Week</p>
               <ul>
                 <li>Full Access</li>
-                {/* <li>Child Care</li> */}
+                <li>Child Care</li>
                 <li> Unlimted Classes</li>
                 {/* <li>Fitness Consultation</li> */}
               </ul>
               <a href="#here" className="findoutmore">
-                Find out more
+                Questions?
               </a>
             </div>
             <div className="pricingCard">
@@ -39,12 +41,12 @@ const PricingComponent = () => {
               <p>$40/month</p>
               <ul>
                 <li>Full Access</li>
-                {/* <li>Child Care</li> */}
+                <li>Child Care</li>
                 <li>Unlimted Classes</li>
                 {/* <li>Fitness Consultation</li> */}
               </ul>
               <a href="#here" className="findoutmore">
-                Find out more
+                Questions?
               </a>
             </div>
             <div className="pricingCard">
@@ -52,12 +54,12 @@ const PricingComponent = () => {
               <p>$30/month</p>
               <ul>
                 <li>Full Access</li>
-                {/* <li>Child Care</li> */}
+                <li>Child Care</li>
                 <li>Unlimted Classes</li>
                 {/* <li>Fitness Consultation</li> */}
               </ul>
               <a href="#here" className="findoutmore">
-                Find out more
+                Questions?
               </a>
             </div>
             {/* <div className="pricingCard">
@@ -72,6 +74,7 @@ const PricingComponent = () => {
               <a href="#home" className='findoutmore'>Find out more</a>
             </div> */}
           </div>
+          <p className="more-about-classes">Please note: Child care is $5 per visit or unlimted visits for $25 a month</p>
           <p className="more-about-classes">
             When a member joins with a 1 year or 2 year plan they can add family
             members for <strong>$25 a month.</strong>
@@ -87,6 +90,7 @@ const PricingComponent = () => {
           </p>
           <div className="moreOn-memberships">
             <li>$10 day pass</li>
+            <li>Silver Sneakers</li>
           </div>
         </div>
       )}

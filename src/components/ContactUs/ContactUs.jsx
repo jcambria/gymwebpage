@@ -47,29 +47,29 @@ const ContactUs = () => {
             placeholder="Age"
             name="user_age"
             required
-            min="0"
+            min="15"
             max="120"
           />
-          <label htmlFor="maleOrFemale">Tell Us About Yourself</label>
+          <label htmlFor="maleOrFemale">Tell us more about yourself</label>
           <input type="text" placeholder="Full Name" name="user_name" required></input>
           <select id="fitness_level" name="user_gender" required>
-            <option value="">Select Your Gender</option>
+            <option value="">Select your gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
           </select>
           <label htmlFor="trainerPreference">
-            Would you like a Male or Female Trainer?
+            Do you have a preference on a male or female trainer?
           </label>
           <select id="fitness_level" name="user_preference" required>
-            <option value="">Select An Option</option>
+            <option value="">Select an option</option>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
             <option value="No Preference">No Preference</option>
           </select>
 
-          <label htmlFor="trainingDays">What is a good day to Train?</label>
+          <label htmlFor="trainingDays">What day works for you?</label>
           <select id="fitness_days" name="user_trainingDays" required>
-            <option value="">Select A Day</option>
+            <option value="">Select a day</option>
             <option value="Monday">Monday</option>
             <option value="Tuesday">Tuesday</option>
             <option value="Wednesday">Wednesday</option>
@@ -79,16 +79,16 @@ const ContactUs = () => {
             <option value="Sunday">Sunday</option>
           </select>
 
-          <label htmlFor="fitness_level">Fitness Level</label>
+          <label htmlFor="fitness_level">Fitness level</label>
           <select id="fitness_level" name="user_fitnessLevel" required>
-            <option value="">Select Fitness Level</option>
+            <option value="">Select an option</option>
             <option value="Beginner">Beginner </option>
             <option value="Intermediate">Intermediate</option>
             <option value="Advanced">Advanced</option>
           </select>
-          <label htmlFor="fitness_objectives">Fitness Goals</label>
+          <label htmlFor="fitness_objectives">Fitness goal</label>
           <select id="fitness_level" name="user_goals" required>
-            <option value="">Select An Option</option>
+            <option value="">Select an option</option>
             <option value="Lose Weight">Lose Weight </option>
             <option value="Gain Muscle">Gain Muscle</option>
             <option value="Athletic Enhancement">Athletic Enhancement</option>
@@ -96,7 +96,7 @@ const ContactUs = () => {
               Improve overall health and fitness level
             </option>
           </select>
-          <h3>Tell Us More About Your Goals</h3>
+          <h3>Tell us more about your goals</h3>
 
           <textarea name="message" cols={20} rows={5}></textarea>
           <button>Send</button>

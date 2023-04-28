@@ -55,7 +55,6 @@ const WorkoutListTracker = () => {
   return (
     
     <div className="workout-tracker" id="workout">
-      
       <h1 className="workout-tracker__title">Build Your Workout</h1>
       <form className="workout-tracker__form">
         <input
@@ -97,7 +96,7 @@ const WorkoutListTracker = () => {
               className="workout-tracker__remove-button"
               onClick={() => handleRemoveWorkout(index)}
             >
-              Remove
+              remove
             </button>
           </li>
         ))}

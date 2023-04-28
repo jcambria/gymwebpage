@@ -19,7 +19,7 @@ body{
     font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 12px;
-    background-image: linear-gradient(to right, #de6f23, #de6f23, #de6f23, #6f6f6f);
+    background-image: linear-gradient(to right, #de6e23, #de6f23, #de6f23, #de6e2381 );
     -webkit-background-clip: text;
     color: transparent;
     
@@ -29,20 +29,20 @@ body{
 .welcome .p__text {
     letter-spacing: 4px;
     font-size: 20px;
-    line-height: 1.4;
+    line-height: 2;
     color: #6f6f6f;
 }
 
 .p__intro {
-    letter-spacing: .6px;
+    letter-spacing: 1.6px;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: #333; 
-    line-height: 1;
+    line-height: 2;
     padding: 20px;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
   

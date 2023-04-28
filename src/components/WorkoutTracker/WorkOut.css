@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 .workout-tracker__button:hover{
-  background-color: #ec8541;
+  background-color: #ec8541df;
   transition: .5s ease;
 }
 
@@ -84,4 +84,7 @@
   border-radius: 5px;
   font-size: 14px;
   cursor: pointer;
+}
+.workout-tracker__remove-button:hover{
+  background-color: #a5101f;
 }
