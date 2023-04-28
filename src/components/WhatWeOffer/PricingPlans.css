@@ -1,7 +1,7 @@
 /* CSS for the show/hide button */
 .showButton,
 .hideButton {
-  background-color: #de6f23;
+  background-color: black;
   color: #fff;
   padding: 12px 24px;
   border: none;
@@ -11,7 +11,7 @@
 }
 
 .hideButton {
-  background-color: #de6f23;
+  background-color: black;
 }
 
 /* CSS for the pricing container */

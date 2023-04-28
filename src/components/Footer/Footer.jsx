@@ -12,25 +12,28 @@ import "./Footer.css"; // Import the CSS file for styling
 const Footer = () => {
   return (
 <body>
+	
   <footer class="footer">
   	 <div class="container">
   	 	<div class="row">
+		   <hr />
   	 		<div class="footer-col">
-  	 			<h4>Hours</h4>
+				
+  	 			<h4>Hours <FaClock /> </h4>
   	 			<ul>
-  	 				<li><a href="#">Home</a></li>
-  	 				<li><a href="#">About</a></li>
-  	 				<li><a href="#">Pricing</a></li>
-  	 				<li><a href="#">Privacy Policy</a></li>
+  	 				<li><a href="#"><strong>Monday-Friday</strong></a></li>
+  	 				<li><a href="#">5:30am-9:00pm</a></li>
+  	 				<li><a href="#"><strong>Saturday-Sunday</strong></a></li>
+  	 				<li><a href="#">8:00am-5:00pm</a></li>
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>Address</h4>
+  	 			<h4>Location <FaMapMarkerAlt /> </h4>
   	 			<ul>
-  	 				<li><a href="#">Shipping</a></li>
-  	 				<li><a href="#">Returns</a></li>
-  	 				<li><a href="#">Order Status</a></li>
-  	 				<li><a href="#">Payment Options</a></li>
+  	 				<li><a href="#">4250 North High Street <br /> Columbus,OH 43214</a></li>
+  	 				<li><a href="#"></a></li>
+  	 				{/* <li><a href="#">Order Status</a></li>
+  	 				<li><a href="#">Payment Options</a></li> */}
   	 			</ul>
   	 		</div>
   	 		{/* <div class="footer-col">
@@ -45,7 +48,7 @@ const Footer = () => {
   	 				<a href="#"> <FaFacebook /> <i class="fab fa-google"></i></a>
   	 				<a href="#"> <FaLinkedin /> <i class="fab fa-facebook-f"></i></a>
   	 				<a href="#"> <FaTwitter /> <i class="fab fa-instagram"></i></a>
-  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"> <FaPhone /> <i class="fab fa-twitter"></i></a>
   	 			</div>
   	 		</div>
   	 	</div>
