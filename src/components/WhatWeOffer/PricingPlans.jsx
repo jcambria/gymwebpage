@@ -74,10 +74,10 @@ const PricingComponent = () => {
               <a href="#home" className='findoutmore'>Find out more</a>
             </div> */}
           </div>
-          <p className="more-about-classes">Please note: Child care is $5 per visit or unlimted visits for $25 a month</p>
+          <p className="more-about-classes">Please note: Child care is $5 per visit or unlimted visits for $25 a month.</p>
           <p className="more-about-classes">
             When a member joins with a 1 year or 2 year plan they can add family
-            members for <strong>$25 a month.</strong>
+            members at a discounted rate of <strong>$25 a month.</strong>
             <p>
               We want to work with you. For any questions please reach out by
               phone or email.

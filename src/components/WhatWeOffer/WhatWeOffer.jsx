@@ -30,7 +30,7 @@ const WhatWeOffer = () => {
               />
               <h3 className="offer-item-title">Personal Training</h3>
               <p className="offer-item-description">
-                Our team of certified trainers and group exercise instructors is
+                Our team of certified trainers are
                 passionate about helping you achieve your health and fitness
                 goals. Whether you're a seasoned athlete or just starting on
                 your fitness journey, we have everything you need to succeed.
