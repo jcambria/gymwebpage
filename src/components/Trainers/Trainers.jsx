@@ -1,6 +1,9 @@
 import React from 'react';
 import './Trainers.css';
 
+import todd from './todd.jpeg';
+
+
 const Trainer = ({ image, name, bio, website }) => (
   <div className="trainer-card">
     <img src={image} alt={name} className="trainer-image" />
@@ -16,23 +19,24 @@ const Trainer = ({ image, name, bio, website }) => (
 const Trainers = () => {
   const trainersData = [
     {
-      image: 'https://precisionwellnesstraining.com/wp-content/uploads/Precision_Wellness_151b.jpg',
-      name: 'John Doe',
-      bio: 'John Doe is a certified fitness trainer with 10 years of experience.',
-      website: 'https://www.johndoe.com'
+      image: todd,
+      name: 'Todd Zody',
+      bio: 'Todd is a licensed Occupational Therapist, ACSM-certified exercise physiologist, and Functional Aging Specialist who owns Precision Wellness Personal Training. He creates personalized workout plans to improve strength, fitness, and overall well-being of those aged 55 and over, taking into account physical concerns and health conditions such as osteoporosis, diabetes, and arthritis.' ,
+      website: 'https://precisionwellnesstraining.com/'
     },
     {
       image: 'https://www.bodybygreg.net/wp-content/uploads/2018/05/Best-Personal-Trainer-in-Columbus-Ohio.jpg',
-      name: 'Jane Smith',
+      name: 'Heather Fries',
       bio: 'Jane Smith is a professional trainer specializing in weightlifting.',
-      website: 'https://www.janesmith.com'
+      website: 'https://friestraining.com/'
     },
     {
       image: 'trainer3.jpg',
-      name: 'Mike Johnson',
+      name: 'Travis Davis',
       bio: 'Mike Johnson is a fitness enthusiast who focuses on functional training.',
       website: 'https://www.mikejohnson.com'
     }
+
   ];
 
   return (

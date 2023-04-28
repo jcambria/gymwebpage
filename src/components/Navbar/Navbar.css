@@ -60,7 +60,9 @@
 
 .app__navbar-login a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* color: #937a25 ; */
+    text-transform: uppercase;
+    color: rgb(255, 8, 8);
+    font-size: 15px;
     font-weight: 600;
     margin: 0 .8rem;
     text-decoration: none;

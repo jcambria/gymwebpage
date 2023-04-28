@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./WhatWeOffer.css"; 
 import PricingComponent from "./PricingPlans";
+import michele from './michele.jpeg';
 
 const WhatWeOffer = () => {
   const [activeOffer, setActiveOffer] = useState("");
@@ -82,15 +83,16 @@ const WhatWeOffer = () => {
           onClick={() => handleOfferItemClick("nutrition-counseling")}
         >
           <img
-            src="https://www.pcrm.org/sites/default/files/styles/full_width_feature/public/2020-12/nutrition.png?itok=5zNqrBps"
+            src={michele}
             alt="Offer 4"
             className="offer-item-image"
           />
-          <h3 className="offer-item-title">Nutrition Counseling</h3>
+          <h3 className="offer-item-title">Massage Therapy</h3>
           <p className="offer-item-description">
-            Our certified nutritionists provide personalized nutrition
-            counseling to help you achieve your health and fitness goals
-            through proper diet and nutrition plans.
+          Michelle Robison is a licensed massage therapist in Columbus, Ohio. She graduated from the 
+          American Institute of Alternative Medicine and specializes in improving clients' 
+          well-being through massage programs. For more information and to book an appointment
+           visit her website: <a href="https://www.michellerobisonlmt.com/">Here</a>
           </p>
         </div>
       </div>
