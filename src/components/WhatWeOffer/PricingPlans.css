@@ -10,8 +10,8 @@
   transition: background-color 0.3s ease;
 }
 
-.hideButton {
-  background-color: rgba(0, 0, 0, 0.827);
+.showButton:hover, .hideButton:hover {
+  background-color: #de6f23;
 }
 
 /* CSS for the pricing container */

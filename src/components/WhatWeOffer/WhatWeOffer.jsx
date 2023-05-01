@@ -6,7 +6,7 @@ import michele from "./michele.jpeg";
 const WhatWeOffer = () => {
   const [activeOffer, setActiveOffer] = useState("");
 
-  // Function to handle click event on offer item
+
   const handleOfferItemClick = (offer) => {
     setActiveOffer(offer);
   };

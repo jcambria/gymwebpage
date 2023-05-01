@@ -62,7 +62,8 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     /* color: rgba(255, 4, 4, 0.686); */
-    color: #e91515e2;
+    /* color: #e91515e2; */
+    color: #de6f23;
     font-size: 12px;
     font-weight: 600;
     margin: 0 .8rem;

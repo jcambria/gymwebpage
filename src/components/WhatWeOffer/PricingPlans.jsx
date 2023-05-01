@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import {
+  
+  FaPhone,
+
+} from "react-icons/fa";
 
 import "./PricingPlans.css";
 
@@ -24,12 +29,12 @@ const PricingComponent = () => {
           </h2>
           <div className="pricingCardContainer">
             <div className="pricingCard">
-              <h3>Free</h3>
-              <p>One Week</p>
+              <h3>Free Pass</h3>
+              <p>One week</p>
               <ul>
-                <li>Full Access</li>
-                <li>Child Care</li>
-                <li> Unlimted Classes</li>
+                <li>Full gym access</li>
+                <li>Child care plans</li>
+                <li>Unlimted classes</li>
                 {/* <li>Fitness Consultation</li> */}
               </ul>
               <a href="#here" className="findoutmore">
@@ -40,9 +45,9 @@ const PricingComponent = () => {
               <h3>1 Year</h3>
               <p>$40/month</p>
               <ul>
-                <li>Full Access</li>
-                <li>Child Care</li>
-                <li>Unlimted Classes</li>
+                <li>Full gym access</li>
+                <li>Child care plans</li>
+                <li>Unlimted classes</li>
                 {/* <li>Fitness Consultation</li> */}
               </ul>
               <a href="#here" className="findoutmore">
@@ -53,26 +58,15 @@ const PricingComponent = () => {
               <h3>2 Year</h3>
               <p>$30/month</p>
               <ul>
-                <li>Full Access</li>
-                <li>Child Care</li>
-                <li>Unlimted Classes</li>
+                <li>Full gym access</li>
+                <li>Child care plans</li>
+                <li>Unlimted classes</li>
                 {/* <li>Fitness Consultation</li> */}
               </ul>
               <a href="#here" className="findoutmore">
                 Questions?
               </a>
             </div>
-            {/* <div className="pricingCard">
-              <h3>3 month</h3>
-              <p>$180.000</p>
-              <ul>
-                <li>Full Access</li>
-                <li>Child Care</li>
-                <li>Classes</li>
-                <li>Fitness Consultation</li>
-              </ul>
-              <a href="#home" className='findoutmore'>Find out more</a>
-            </div> */}
           </div>
           <p className="more-about-classes">Please note: Child care is $5 per visit or unlimted visits for $25 a month.</p>
           <p className="more-about-classes">
@@ -80,9 +74,13 @@ const PricingComponent = () => {
             members at a discounted rate of <strong>$25 a month.</strong>
             <p>
               We want to work with you. For any questions please reach out by
-              phone or email.
+              phone or email. 
+              
+              <div>
+                <FaPhone />
+              </div>
+
             </p>
-            {/* <strong>$25 a month</strong> <a href="">sign up</a>{" "} */}
           </p>
           <p className="other-offers">
             {" "}

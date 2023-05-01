@@ -68,6 +68,7 @@ const Navbar = () => {
               <li className="p__opensans">
                 <a href="#home" onClick={() => setToggleMenu(false)}>
                   Home
+                  <hr className="navbar-hr"/>
                 </a>
               </li>
               <li className="p__opensans">
@@ -76,6 +77,7 @@ const Navbar = () => {
                   target="_blank"
                 >
                   Class Schedule
+                  <hr className="navbar-hr"/>
                 </a>
               </li>
               <li className="p__opensans">
@@ -84,26 +86,31 @@ const Navbar = () => {
                   target="_blank"
                 >
                   Child Care
+                  <hr className="navbar-hr" />
                 </a>
               </li>
               <li className="p__opensans">
                 <a href="#whatWeOffer" onClick={() => setToggleMenu(false)}>
                   Health Club
+                  <hr className="navbar-hr" />
                 </a>
               </li>
               <li className="p__opensans">
                 <a href="#trainers" onClick={() => setToggleMenu(false)}>
                   Trainers
+                  <hr className="navbar-hr" />
                 </a>
               </li>
               <li className="p__opensans">
                 <a href="#workout" onClick={() => setToggleMenu(false)}>
                   Workout
+                  <hr className="navbar-hr" />
                 </a>
               </li>
               <li className="p__opensans">
                 <a href="#here" onClick={() => setToggleMenu(false)}>
                   Contact
+                  <hr className="navbar-hr" />
                 </a>
               </li>
             </ul>

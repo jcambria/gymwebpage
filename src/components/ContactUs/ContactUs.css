@@ -55,9 +55,8 @@
   button {
     display: block;
     margin: 0 auto; /* Add margin: 0 auto; to center horizontally */
-    
     padding: 10px;
-    background-color: #3498db;
+    background-color: black;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -65,7 +64,7 @@
   }
   
   button:hover {
-    background-color: #2980b9;
+    background-color: #de6f23;
   }
   
   /* Responsive styles for smaller devices */
