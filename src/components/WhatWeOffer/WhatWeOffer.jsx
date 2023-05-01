@@ -94,7 +94,7 @@ const WhatWeOffer = () => {
                 Medicine and specializes in improving clients' well-being
                 through massage programs. For more information and to book an
                 appointment visit her website:{" "}
-                <a href="https://www.michellerobisonlmt.com/">Here</a>
+                <a className="offer__link" href="https://www.michellerobisonlmt.com/">here</a>
               </p>
             </div>
           </div>

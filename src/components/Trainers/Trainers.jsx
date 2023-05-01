@@ -2,6 +2,8 @@ import React from 'react';
 import './Trainers.css';
 
 import todd from './todd.jpeg';
+import travis from './travis.jpeg'
+import heather from './heather.jpeg';
 
 
 const Trainer = ({ image, name, bio, website }) => (
@@ -25,13 +27,13 @@ const Trainers = () => {
       website: 'https://precisionwellnesstraining.com/'
     },
     {
-      image: 'https://www.bodybygreg.net/wp-content/uploads/2018/05/Best-Personal-Trainer-in-Columbus-Ohio.jpg',
+      image: heather,
       name: 'Heather Fries',
-      bio: 'Jane Smith is a professional trainer specializing in weightlifting.',
+      bio: 'I an experienced personal trainer who has been an elite athlete, US Air Force officer, and general manager in the Sports Nutrition and healthcare industries. With personalized training programs, I accommodate busy schedules, injuries, and muscle imbalances while coaching for corrective movement, weight loss, muscle toning, and sports performance. Dont let health stand between you and your day',
       website: 'https://friestraining.com/'
     },
     {
-      image: 'trainer3.jpg',
+      image: travis,
       name: 'Travis Davis',
       bio: 'Mike Johnson is a fitness enthusiast who focuses on functional training.',
       website: 'https://www.mikejohnson.com'

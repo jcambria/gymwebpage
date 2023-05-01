@@ -96,7 +96,7 @@ const WorkoutListTracker = () => {
               className="workout-tracker__remove-button"
               onClick={() => handleRemoveWorkout(index)}
             >
-              remove
+              finished
             </button>
           </li>
         ))}

@@ -66,8 +66,16 @@
 
   }
   
-  /* Media Queries for Responsive Styling */
-  
+  .offer__link{
+    text-decoration: none;
+    color: #de6f23;
+  }
+
+  .offer__link:hover{
+    text-decoration: underline;
+    
+  }
+
   
   #what-we-offer {
   padding: 80px 0;

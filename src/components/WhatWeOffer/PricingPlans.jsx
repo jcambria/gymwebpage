@@ -30,7 +30,7 @@ const PricingComponent = () => {
           <div className="pricingCardContainer">
             <div className="pricingCard">
               <h3>Free Pass</h3>
-              <p>One week</p>
+              <p>One week (vaild local ID required) </p>
               <ul>
                 <li>Full gym access</li>
                 <li>Child care plans</li>
@@ -68,16 +68,16 @@ const PricingComponent = () => {
               </a>
             </div>
           </div>
-          <p className="more-about-classes">Please note: Child care is $5 per visit or unlimted visits for $25 a month.</p>
+          {/* <p className="more-about-classes">Please note: Child care is $5 per visit or unlimted visits for $25 a month.</p> */}
           <p className="more-about-classes">
-            When a member joins with a 1 year or 2 year plan they can add family
-            members at a discounted rate of <strong>$25 a month.</strong>
+            {/* When a member joins with a 1 year or 2 year plan they can add family
+            members at a discounted rate of <strong>$25 a month.</strong> */}
             <p>
-              We want to work with you. For any questions please reach out by
-              phone or email. 
+              We want to work with you. For any questions about pricing and other plans please reach out by
+              phone or the contact form below. 
               
               <div>
-                <FaPhone />
+                {/* <FaPhone /> */}
               </div>
 
             </p>
@@ -88,6 +88,7 @@ const PricingComponent = () => {
           </p>
           <div className="moreOn-memberships">
             <li>$10 day pass</li>
+            <li>Family Member Plans</li>
             <li>Silver Sneakers</li>
           </div>
         </div>
