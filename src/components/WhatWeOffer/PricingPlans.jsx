@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import {
-  
-  FaPhone,
 
-} from "react-icons/fa";
 
 import "./PricingPlans.css";
 

@@ -1,5 +1,4 @@
 import React from "react";
-import { BiDumbbell } from "react-icons/bi";
 import "./Header.css";
 
 const Header = () => {

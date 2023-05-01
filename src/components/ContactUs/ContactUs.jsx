@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import Multiselect from "multiselect-react-dropdown";
 
 import "./ContactUs.css";
 
@@ -51,7 +50,12 @@ const ContactUs = () => {
             max="120"
           />
           <label htmlFor="maleOrFemale">Tell us more about yourself</label>
-          <input type="text" placeholder="Full Name" name="user_name" required></input>
+          <input
+            type="text"
+            placeholder="Full Name"
+            name="user_name"
+            required
+          ></input>
           <select id="fitness_level" name="user_gender" required>
             <option value="">Select your gender</option>
             <option value="male">Male</option>

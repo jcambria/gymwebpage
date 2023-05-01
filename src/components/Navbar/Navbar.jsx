@@ -7,7 +7,7 @@ import { BiDumbbell } from "react-icons/bi";
 import "./Navbar.css";
 
 import logo from "./logo.jpg";
-import logoO from "./logoO.jpg";
+
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);

@@ -11,6 +11,7 @@ import WhatWeOffer from "./components/WhatWeOffer/WhatWeOffer";
 import Trainers from "./components/Trainers/Trainers";
 import Footer from "./components/Footer/Footer";
 import ContactForm from "./components/EmailContact/ContactForm";
+import ClassDescription from "./components/Classes/ClassDescription";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Navbar />
       <Header />
       <WhatWeOffer />
+      <ClassDescription />
       <Trainers />
       <WorkoutListTracker />
       <ContactForm />
