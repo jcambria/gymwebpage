@@ -51,10 +51,9 @@ const WhatWeOffer = () => {
               />
               <h3 className="offer-item-title">Group Classes</h3>
               <p className="offer-item-description">
-                Join our fun and energetic group classes led by certified
-                instructors. We offer a variety of classes to suit all fitness
-                levels. Unlimited group fitness classes (i.e. Spinning,
-                bootcamps, TRX, yoga) included in membership prices.
+              Experience our fun and energetic group classes led by certified instructors. 
+              Our classes cater to all fitness levels and are included in membership prices. 
+              Join us for unlimited Spinning, bootcamps, TRX, yoga, and more!
               </p>
             </div>
           </div>
@@ -89,11 +88,10 @@ const WhatWeOffer = () => {
               <img src={michele} alt="Offer 4" className="offer-item-image" />
               <h3 className="offer-item-title">Massage Therapy</h3>
               <p className="offer-item-description">
-                Michelle Robison is a licensed massage therapist in Columbus,
-                Ohio. She graduated from the American Institute of Alternative
-                Medicine and specializes in improving clients' well-being
-                through massage programs. For more information and to book an
-                appointment visit her website:{" "}
+              Licensed massage therapist Michelle Robison specializes in enhancing clients' 
+              well-being through massage programs. Based in Columbus, Ohio, 
+              she graduated from the American Institute of Alternative Medicine. 
+              Visit her website to book an appointment {" "}
                 <a className="offer__link" href="https://www.michellerobisonlmt.com/">here</a>
               </p>
             </div>
@@ -106,7 +104,7 @@ const WhatWeOffer = () => {
               onClick={() => handleOfferItemClick("personal-lockers")}
             >
               <img
-                src="https://www.planetfitness.com/sites/default/files/Gym%20Safety/PF_BlueCard_2.1_v2_2.png"
+                src="https://www.cleanlink.com/resources/editorial/2019/locker-room-57700.jpg"
                 alt="Offer 5"
                 className="offer-item-image"
               />
@@ -127,7 +125,7 @@ const WhatWeOffer = () => {
               onClick={() => handleOfferItemClick("childcare")}
             >
               <img
-                src="https://www.ymcacassclay.org/wp-content/uploads/2020/08/Child-Watching-Kids-Area.jpg"
+                src="https://www.verywellfamily.com/thmb/gzEOBWMxL_UeQuZeVIwKcM9_CMA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Child-care-Christopher-Futcher-E-Plus-GettyImages-157726989-569fd55e3df78cafda9e8b9b.jpg"
                 alt="Offer 6"
                 className="offer-item-image"
               />

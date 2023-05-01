@@ -29,7 +29,7 @@ const Trainers = () => {
     {
       image: heather,
       name: 'Heather Fries',
-      bio: 'I an experienced personal trainer who has been an elite athlete, US Air Force officer, and general manager in the Sports Nutrition and healthcare industries. With personalized training programs, I accommodate busy schedules, injuries, and muscle imbalances while coaching for corrective movement, weight loss, muscle toning, and sports performance. Dont let health stand between you and your day',
+      bio: 'Heather is an experienced personal trainer who has been an elite athlete, US Air Force officer, and general manager in the Sports Nutrition and healthcare industries. With personalized training programs, she accommodate busy schedules, injuries, and muscle imbalances while coaching for corrective movement, weight loss, muscle toning, and sports performance. Dont let health stand between you and your day',
       website: 'https://friestraining.com/'
     },
     {
