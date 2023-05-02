@@ -11,11 +11,11 @@ const PricingComponent = () => {
 
   return (
     <div>
-      <button
+      <button 
         className={showPlans ? "hideButton" : "showButton"}
         onClick={handleButtonClick}
       >
-        {showPlans ? "Hide Details" : "Membership Details"}
+        {showPlans ? "Hide Details" : "Membership Plans"}
       </button>
       {showPlans && (
         <div className="pricingContainer">

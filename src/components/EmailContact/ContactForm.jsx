@@ -69,7 +69,7 @@ const ContactUs = () => {
                 name="message"
                 cols={20}
                 rows={5}
-                className="form-textarea"
+                className="form-textarea" required
               ></textarea>
               <button className="form-button1">Send</button>
             </form>
