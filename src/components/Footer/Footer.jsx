@@ -6,21 +6,21 @@ import {
   FaLinkedin,
   FaFacebook,
   FaTwitter,
-  FaUserFriends
+  FaUserFriends,
 } from "react-icons/fa"; // Import icons from react-icons/fa
 import { CgCopyright } from "react-icons/cg";
 import "./Footer.css"; // Import the CSS file for styling
 
 const Footer = () => {
   return (
-    <body>
-      <footer class="footer">
-        <div class="container">
-          <div class="row">
+    <div>
+      <footer className="footer">
+        <div className="container">
+          <div className="row">
             <hr />
-            <div class="footer-col">
+            <div className="footer-col">
               <h4>
-              <FaClock /> Hours {" "}
+                <FaClock /> Hours{" "}
               </h4>
               <ul>
                 <li>
@@ -41,9 +41,9 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div class="footer-col">
+            <div className="footer-col">
               <h4>
-              <FaMapMarkerAlt /> Location {" "}
+                <FaMapMarkerAlt /> Location{" "}
               </h4>
               <ul>
                 <li>
@@ -57,9 +57,12 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="footer-col">
-              <h4> <FaUserFriends /> Connect  </h4>
-              <div class="social-links">
+            <div className="footer-col">
+              <h4>
+                {" "}
+                <FaUserFriends /> Connect{" "}
+              </h4>
+              <div className="social-links">
                 <a
                   href="https://www.facebook.com/profile.php?id=100057378021597"
                   target="_blank"
@@ -83,8 +86,8 @@ const Footer = () => {
                   <FaPhone /> <i></i>
                 </a>
               </div>
-              <div class="container">
-                <div class="footer-copyright">
+              <div className="container">
+                <div className="footer-copyright">
                   <span>
                     <CgCopyright className="copyright-icon" />
                   </span>
@@ -95,7 +98,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </body>
+    </div>
   );
 };
 

@@ -4,24 +4,43 @@ import "./ClassDescription.css";
 const classData = [
   {
     title: "Spinning Class",
-    description:
-      "vdjsvjknakcnakS CKD SK VDKS VJKDS KJV Cjs vj dskjvc askjd vkj dsVJK DSK VKJSAD VKJ dskjv ksjd jvkd skv dksj VKJSD JKC KDSJ C",
+    description:"An indoor cycling class that utilizes a revolutionary stationary bike to take participants through a detailed set of general exercises designed to simulate a real outdoor biking experience. This is a great workout for everyone, not just bikers.",
   },
   {
-    title: "TRX Class",
-    description: "Description of class 2",
+    title: "TRX/Core & Abs Class",
+    description: "A TRX workout that focuses on core and abdominal strengthening.",
   },
   {
-    title: "Class 3",
-    description: "Description of class 3",
+    title: "Flex-a-Ball ",
+    description: "A mixture of Pilates and yoga-like movements using an exercise ball to increase flexibility, stability, coordination and overall strength.",
   },
   {
-    title: "Class 4",
-    description: "Description of class 4",
+    title: "Total Body Interval Class",
+    description: "An interval class designed to increase strength and endurance.  Instructors use a variety of equipment (BOSU, TRX Suspension trainer, weights, bands, balls) to put together a great workout for all levels.",
   },
   {
-    title: "Class 5",
-    description: "Description of class 5",
+    title: "Slow Flow Yoga Class ",
+    description: "A yoga practice that can be easily modified for a variety of needs. This class is designed to bring balance to the body with a mixture of flowing sequences and deeper stretches.",
+  },
+  {
+    title: "Ultimate Strength Class",
+    description: "This class will work on complete body toning and sculpting.  Strengthen your muscles using a variety of equipment (ie bars, weights, bands and etc.) and formats. Great for all levels.",
+  },
+  {
+    title: "Flow Yoga ",
+    description: "A dynamic flow through basic and challenging yoga poses that strengthen and lengthen muscles, as well as aligning posture, improving balance and relieving stress. Class pace can be energetic at times, so modifications are given along the way.",
+  },
+  {
+    title: "Flow Yoga Class",
+    description: "A dynamic flow through basic and challenging yoga poses that strengthen and lengthen muscles, as well as aligning posture, improving balance and relieving stress. Class pace can be energetic at times, so modifications are given along the way.",
+  },
+  {
+    title: "H.I.I.T. Class",
+    description: "This class is a high intensity interval training workout which focuses on total body strengthening paired with cardio bursts.  Instructors will use a variety of equipment and formats to provide a great workout that will burn maximum calories. Modifications will be given when needed making this class perfect for all levels.",
+  },
+  {
+    title: "Vinyasa Yoga ",
+    description: " An athletic dynamic class that combines strength and breath in a flowing and flexibility building format. Instructors work on gently encouraging you forward through your practice on the mat.",
   },
 ];
 

@@ -54,7 +54,7 @@
   /* Style form submit button */
   button {
     display: block;
-    margin: 0 auto; /* Add margin: 0 auto; to center horizontally */
+    margin: 0 auto; 
     padding: 10px;
     background-color: black;
     color: #fff;

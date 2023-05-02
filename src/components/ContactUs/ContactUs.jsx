@@ -103,7 +103,7 @@ const ContactUs = () => {
           <h3>Tell us more about your goals</h3>
 
           <textarea name="message" cols={20} rows={5}></textarea>
-          <button>Send</button>
+          <button>Submit</button>
         </form>
       </div>
     </section>

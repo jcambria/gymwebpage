@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./WhatWeOffer.css";
 import PricingComponent from "./PricingPlans";
 import michele from "./michele.jpeg";
+import ClassDescription from "../Classes/ClassDescription";
 
 const WhatWeOffer = () => {
   const [activeOffer, setActiveOffer] = useState("");
@@ -140,6 +141,10 @@ const WhatWeOffer = () => {
           </div>
           <PricingComponent />
         </div>
+        <div>
+          <h2 className="ourclasses">Our Classes</h2>
+        </div>
+        <ClassDescription />
       </div>
     </section>
   );
