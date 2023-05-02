@@ -33,14 +33,8 @@ const ContactUs = () => {
       <div>
         <h2>Training Questionnaire</h2>
         <form ref={form} onSubmit={sendEmail}>
-          {/* <input
-            type="text"
-            placeholder="Full name"
-            name="user_name"
-            required
-          /> */}
           <input type="email" placeholder="Email" name="user_email" required />
-          {/* <input type="text" placeholder="Subject" name="subject" required /> */}
+
           <input
             type="number"
             placeholder="Age"

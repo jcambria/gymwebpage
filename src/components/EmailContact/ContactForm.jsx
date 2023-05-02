@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Multiselect from "multiselect-react-dropdown";
-import "./ContactForm.css"; // Import CSS file for styling
+import "./ContactForm.css"; 
 
 const ContactUs = () => {
   const form = useRef();

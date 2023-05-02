@@ -8,7 +8,6 @@ import "./Navbar.css";
 
 import logo from "./logo.jpg";
 
-
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -35,21 +34,20 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-      
-          <a
-            href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-cscgroup#/"
-            target="_blank"
-          >
-            Class Schedule
-          </a>
-        
+        <a
+          href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-cscgroup#/"
+          target="_blank"
+        >
+          Class Schedule
+        </a>
+
         <div />
         <a
-            href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-csckids#/"
-            target="_blank"
-          >
-            Child Care
-          </a>
+          href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-csckids#/"
+          target="_blank"
+        >
+          Child Care
+        </a>
       </div>
       <div className="app__navbar-smallscreen">
         <RxHamburgerMenu
@@ -68,7 +66,7 @@ const Navbar = () => {
               <li className="p__opensans">
                 <a href="#home" onClick={() => setToggleMenu(false)}>
                   Home
-                  <hr className="navbar-hr"/>
+                  <hr className="navbar-hr" />
                 </a>
               </li>
               <li className="p__opensans">
@@ -77,7 +75,7 @@ const Navbar = () => {
                   target="_blank"
                 >
                   Class Schedule
-                  <hr className="navbar-hr"/>
+                  <hr className="navbar-hr" />
                 </a>
               </li>
               <li className="p__opensans">
