@@ -7,9 +7,9 @@ import {
   FaFacebook,
   FaTwitter,
   FaUserFriends,
-} from "react-icons/fa"; 
+} from "react-icons/fa";
 import { CgCopyright } from "react-icons/cg";
-import "./Footer.css"; 
+import "./Footer.css";
 
 const Footer = () => {
   return (

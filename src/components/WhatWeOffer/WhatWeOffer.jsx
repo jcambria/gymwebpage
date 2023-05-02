@@ -7,7 +7,6 @@ import ClassDescription from "../Classes/ClassDescription";
 const WhatWeOffer = () => {
   const [activeOffer, setActiveOffer] = useState("");
 
-
   const handleOfferItemClick = (offer) => {
     setActiveOffer(offer);
   };
@@ -31,10 +30,10 @@ const WhatWeOffer = () => {
               />
               <h3 className="offer-item-title">Personal Training</h3>
               <p className="offer-item-description">
-                Our team of certified trainers are
-                passionate about helping you achieve your health and fitness
-                goals. Whether you're a seasoned athlete or just starting on
-                your fitness journey, we have everything you need to succeed.
+                Our team of certified trainers are passionate about helping you
+                achieve your health and fitness goals. Whether you're a seasoned
+                athlete or just starting on your fitness journey, we have
+                everything you need to succeed.
               </p>
             </div>
           </div>
@@ -52,9 +51,10 @@ const WhatWeOffer = () => {
               />
               <h3 className="offer-item-title">Group Classes</h3>
               <p className="offer-item-description">
-              Experience our fun and energetic group classes led by certified instructors. 
-              Our classes cater to all fitness levels and are included in membership prices. 
-              Join us for unlimited Spinning, bootcamps, TRX, yoga, and more!
+                Experience our fun and energetic group classes led by certified
+                instructors. Our classes cater to all fitness levels and are
+                included in membership prices. Join us for unlimited Spinning,
+                bootcamps, TRX, yoga, and more!
               </p>
             </div>
           </div>
@@ -89,11 +89,16 @@ const WhatWeOffer = () => {
               <img src={michele} alt="Offer 4" className="offer-item-image" />
               <h3 className="offer-item-title">Massage Therapy</h3>
               <p className="offer-item-description">
-              Licensed massage therapist Michelle Robison specializes in enhancing clients' 
-              well-being through massage programs. Based in Columbus, Ohio, 
-              she graduated from the American Institute of Alternative Medicine. 
-              Visit her website to book an appointment {" "}
-                <a className="offer__link" href="https://www.michellerobisonlmt.com/">here</a>
+                Licensed massage therapist Michelle Robison specializes in
+                enhancing clients' well-being through massage programs. Based in
+                Columbus, Ohio, she graduated from the American Institute of
+                Alternative Medicine. Visit her website to book an appointment{" "}
+                <a
+                  className="offer__link"
+                  href="https://www.michellerobisonlmt.com/"
+                >
+                  here
+                </a>
               </p>
             </div>
           </div>
@@ -112,8 +117,8 @@ const WhatWeOffer = () => {
               <h3 className="offer-item-title">Locker Room</h3>
               <p className="offer-item-description">
                 We provide lockers for safe and convenient storage of your
-                belongings while you work out. Along with the convenience of shower
-                facilities. We offer a complimentary towel service, so
+                belongings while you work out. Along with the convenience of
+                shower facilities. We offer a complimentary towel service, so
                 you don't worry about bringing your own towel.
               </p>
             </div>

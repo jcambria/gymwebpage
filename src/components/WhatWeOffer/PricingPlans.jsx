@@ -11,7 +11,7 @@ const PricingComponent = () => {
 
   return (
     <div>
-      <button 
+      <button
         className={showPlans ? "hideButton" : "showButton"}
         onClick={handleButtonClick}
       >
@@ -73,9 +73,9 @@ const PricingComponent = () => {
             <strong>Other offers include </strong>
           </p>
           <div className="moreOn-memberships">
-            <li>$10 day pass</li>
             <li>Family Member Plans</li>
-            <li>Silver Sneakers</li>
+            <li>Silver sneakers</li>
+            <li>10$ day pass</li>
           </div>
         </div>
       )}
