@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 import "./PricingPlans.css";
 
 const PricingComponent = () => {
@@ -57,27 +56,18 @@ const PricingComponent = () => {
                 <li>Full gym access</li>
                 <li>Child care plans</li>
                 <li>Unlimted classes</li>
-                {/* <li>Fitness Consultation</li> */}
               </ul>
               <a href="#here" className="findoutmore">
                 Questions?
               </a>
             </div>
           </div>
-          {/* <p className="more-about-classes">Please note: Child care is $5 per visit or unlimted visits for $25 a month.</p> */}
-          <p className="more-about-classes">
-            {/* When a member joins with a 1 year or 2 year plan they can add family
-            members at a discounted rate of <strong>$25 a month.</strong> */}
-            <p>
-              We want to work with you. For any questions about pricing and other plans please reach out by
-              phone or the contact form below. 
-              
-              <div>
-                {/* <FaPhone /> */}
-              </div>
 
-            </p>
-          </p>
+          <div className="more-about-classes">
+            We want to work with you. For any questions about pricing and other
+            plans please reach out by phone or the contact form below.
+            <div>{/* <FaPhone /> */}</div>
+          </div>
           <p className="other-offers">
             {" "}
             <strong>Other offers include </strong>
