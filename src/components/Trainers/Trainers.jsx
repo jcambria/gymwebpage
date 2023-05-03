@@ -46,9 +46,14 @@ const Trainers = () => {
   return (
     <div id="trainers" className="trainers-section">
       <h2 className="section-title-trainers">Meet Our Trainers</h2>
+      <div className="container-trainers">
+        <a className="trainingform" href="#trainingform">
+          Find your trainer
+        </a>
+      </div>
       <div className="trainers-container">
         {trainersData.map((trainer) => (
-          <Trainer
+          <Trainer 
             key={trainer.name}
             image={trainer.image}
             name={trainer.name}

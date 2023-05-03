@@ -21,7 +21,7 @@
   
   .class-description__icon {
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     cursor: pointer;
     transition: transform 0.4s ease-in-out;
   }

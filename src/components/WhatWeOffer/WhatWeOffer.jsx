@@ -72,10 +72,10 @@ const WhatWeOffer = () => {
               />
               <h3 className="offer-item-title">State-of-the-Art Facilities</h3>
               <p className="offer-item-description">
-                Our facility features a vast array of quality equipment, as well
-                as spacious workout areas designed to optimize your fitness
-                experience. Full service gym with circuit of machines, free
-                weights and cardio machines.
+                Our full-service gym features a vast array of quality equipment
+                , spacious workout areas, lockers, and showers.
+                Enjoy our circuit of machines, free weights, and cardio
+                equipment, plus complimentary towel service
               </p>
             </div>
           </div>
@@ -114,7 +114,7 @@ const WhatWeOffer = () => {
                 alt="Offer 5"
                 className="offer-item-image"
               />
-              <h3 className="offer-item-title">Locker Room</h3>
+              <h3 className="offer-item-title">Silver Sneakers Certified </h3>
               <p className="offer-item-description">
                 We provide lockers for safe and convenient storage of your
                 belongings while you work out. Along with the convenience of

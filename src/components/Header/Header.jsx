@@ -14,8 +14,8 @@ const Header = () => {
           experience. Visit us today and experience for yourself why Columbus
           Sports Connection has been the premier gym in town for over 30 years.
         </p>
-        <a className="header__contactlink" href="#getstarted">
-          Get Started
+        <a className="header__contactlink" href="#here">
+          Contact Us
         </a>
       </h1>
     </div>

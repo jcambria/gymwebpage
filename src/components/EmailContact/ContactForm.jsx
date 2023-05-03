@@ -71,7 +71,7 @@ const ContactUs = () => {
                   className="form-textarea"
                   required
                 ></textarea>
-                <button id="getstarted" className="form-button1">Send</button>
+                <button id="trainingform" className="form-button1">Send</button>
               </form>
             </div>
           )}

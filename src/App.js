@@ -18,7 +18,6 @@ const App = () => {
       <Navbar />
       <Header />
       <WhatWeOffer />
-      {/* <ClassDescription /> */}
       <Trainers />
       <WorkoutListTracker />
       <ContactForm />
