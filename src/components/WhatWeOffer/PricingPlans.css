@@ -65,7 +65,7 @@
 .pricingCardContainer {
   display: flex; /* Use flexbox for horizontal spacing */
   justify-content: space-between; /* Spread pricing cards evenly */
-  gap: 50px; /* Add horizontal spacing between pricing cards */
+  gap: 40px; /* Add horizontal spacing between pricing cards */
   margin-top: 16px; /* Add margin for separation from button */
 }
 

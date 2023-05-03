@@ -30,11 +30,26 @@ const PricingComponent = () => {
                 <li>Full gym access</li>
                 <li>Child care plans</li>
                 <li>Unlimted classes</li>
-                {/* <li>Fitness Consultation</li> */}
               </ul>
               <a href="#here" className="findoutmore">
                 Questions?
               </a>
+    
+              
+            </div>
+            <div className="pricingCard">
+              <h3>Free Pass</h3>
+              <p>One week (vaild local ID required) </p>
+              <ul>
+                <li>Full gym access</li>
+                <li>Child care plans</li>
+                <li>Unlimted classes</li>
+              </ul>
+              <a href="#here" className="findoutmore">
+                Questions?
+              </a>
+    
+              
             </div>
             <div className="pricingCard">
               <h3>1 Year</h3>
@@ -43,7 +58,7 @@ const PricingComponent = () => {
                 <li>Full gym access</li>
                 <li>Child care plans</li>
                 <li>Unlimted classes</li>
-                {/* <li>Fitness Consultation</li> */}
+            
               </ul>
               <a href="#here" className="findoutmore">
                 Questions?

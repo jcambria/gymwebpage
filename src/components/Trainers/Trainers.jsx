@@ -41,6 +41,13 @@ const Trainers = () => {
       bio: 'Travis is a certified NASM-CPT and CNC trainer with a background in competitive powerlifting, football, track, and tactical sports conditioning. He uses the TD wellness model, which employs a "C.O.M.P.A.S.S" approach to help individuals gain vitality and improve their health and longevity. Travis offers personalized and adaptable programs for high school athletes, rehabilitating adults, and anyone in between.',
       website: "https://www.facebook.com/TDW3LLNESS/",
     },
+    {
+      image: trav,
+      name: "Travis Dav",
+      bio: 'Travis is a certified NASM-CPT and CNC trainer with a background in competitive powerlifting, football, track, and tactical sports conditioning. He uses the TD wellness model, which employs a "C.O.M.P.A.S.S" approach to help individuals gain vitality and improve their health and longevity. Travis offers personalized and adaptable programs for high school athletes, rehabilitating adults, and anyone in between.',
+      website: "https://www.facebook.com/TDW3LLNESS/",
+    },
+
   ];
 
   return (
