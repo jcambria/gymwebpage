@@ -4,6 +4,11 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const classData = [
   {
+    title: "Cardio Blast ",
+    description:
+      "A hi-low cardio workout designed to get your heart pumping and burn calories. Great for all levels!",
+  },
+  {
     title: "Spinning",
     description:
       "An indoor cycling class that utilizes a revolutionary stationary bike to take participants through a detailed set of general exercises designed to simulate a real outdoor biking experience. This is a great workout for everyone, not just bikers.",
@@ -34,9 +39,9 @@ const classData = [
       "This class will work on complete body toning and sculpting.  Strengthen your muscles using a variety of equipment (ie bars, weights, bands and etc.) and formats. Great for all levels.",
   },
   {
-    title: "Flow Yoga ",
+    title: "Spin/Sculpt",
     description:
-      "A dynamic flow through basic and challenging yoga poses that strengthen and lengthen muscles, as well as aligning posture, improving balance and relieving stress. Class pace can be energetic at times, so modifications are given along the way.",
+      "a spin class with a twist. Stay on the bike and use light hand weights throughout spin class to provide a great upper body workout. ",
   },
   {
     title: "Flow Yoga ",
@@ -52,6 +57,11 @@ const classData = [
     title: "Vinyasa Yoga ",
     description:
       " An athletic dynamic class that combines strength and breath in a flowing and flexibility building format. Instructors work on gently encouraging you forward through your practice on the mat.",
+  },
+  {
+    title: "SilverSneakers MSROM",
+    description:
+      "Muscular strength and range of motion are the focus of this multi-level conditioning class.",
   },
 ];
 

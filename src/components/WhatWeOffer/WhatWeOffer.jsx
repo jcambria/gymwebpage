@@ -13,7 +13,7 @@ const WhatWeOffer = () => {
 
   return (
     <section id="what-we-offer">
-      <div id="whatWeOffer" className="container">
+      <div id="healthclub" className="container">
         <h2 className="section-title-healthclub">At Our Health Club</h2>
         <div className="row">
           <div className="col-md-4">
@@ -49,7 +49,7 @@ const WhatWeOffer = () => {
                 alt="Offer 2"
                 className="offer-item-image"
               />
-              <h3 className="offer-item-title">Group Classes</h3>
+              <h3 className="offer-item-title">Spinning and Group Classes</h3>
               <p className="offer-item-description">
                 Experience our fun and energetic group classes led by certified
                 instructors. Our classes cater to all fitness levels and are
@@ -147,7 +147,7 @@ const WhatWeOffer = () => {
           <PricingComponent />
         </div>
         <div>
-          <h2 className="ourclasses">Our Classes</h2>
+          <h2 className="ourclasses">More About Our Classes</h2>
         </div>
         <ClassDescription />
       </div>

@@ -77,10 +77,7 @@ const Footer = () => {
                   {" "}
                   <FaLinkedin /> <i></i>
                 </a>
-                <a href="#">
-                  {" "}
-                  <FaTwitter /> <i></i>
-                </a>
+
                 <a href="tel:6142672582">
                   {" "}
                   <FaPhone /> <i></i>

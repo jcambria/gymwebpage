@@ -36,7 +36,7 @@ const ContactUs = () => {
         <div className="contact-container">
           {showMessage ? (
             <div className="thank-you-container">
-              <h2 className="thank-you-heading">Thanks for your submission!</h2>
+              <h2 className="thank-you-heading">Thanks for reaching out!</h2>
               <p className="thank-you-text">We will get back to you soon.</p>
             </div>
           ) : (
@@ -71,7 +71,7 @@ const ContactUs = () => {
                   className="form-textarea"
                   required
                 ></textarea>
-                <button className="form-button1">Send</button>
+                <button id="getstarted" className="form-button1">Send</button>
               </form>
             </div>
           )}

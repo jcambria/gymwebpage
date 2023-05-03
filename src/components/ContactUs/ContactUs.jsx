@@ -29,6 +29,7 @@ const ContactUs = () => {
   };
 
   return (
+    
     <section>
       <div>
         <h2>Training Questionnaire</h2>
@@ -75,6 +76,13 @@ const ContactUs = () => {
             <option value="Friday">Friday</option>
             <option value="Saturday">Saturday</option>
             <option value="Sunday">Sunday</option>
+          </select>
+          <label htmlFor="fitnessTime">Best time of day for you?</label>
+          <select id="fitness_time" name="user_bestTime" required>
+            <option value="">Select an option</option>
+            <option value="Morning">Morning</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
           </select>
 
           <label htmlFor="fitness_level">Fitness level</label>
