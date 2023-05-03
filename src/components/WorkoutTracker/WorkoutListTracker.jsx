@@ -37,7 +37,7 @@ const WorkoutListTracker = () => {
       const newWorkoutObj = {
         workout: newWorkout,
         sets: newSets,
-        reps: newReps,
+        reps: newReps
       };
       setWorkouts([...workouts, newWorkoutObj]);
       setNewWorkout("");
@@ -53,6 +53,7 @@ const WorkoutListTracker = () => {
   };
 
   return (
+    
     <div className="workout-tracker" id="workout">
       <h1 className="workout-tracker__title">Build Your Workout</h1>
       <form className="workout-tracker__form">
@@ -95,7 +96,7 @@ const WorkoutListTracker = () => {
               className="workout-tracker__remove-button"
               onClick={() => handleRemoveWorkout(index)}
             >
-              finished
+              Done
             </button>
           </li>
         ))}

@@ -4,6 +4,7 @@ import "./Trainers.css";
 import todd from "./todd.jpeg";
 import heather from "./heather.jpeg";
 import trav from "./trav.jpeg";
+import pete from './pete.jpg'
 
 const Trainer = ({ image, name, bio, website }) => (
   <div className="trainer-card">
@@ -42,16 +43,15 @@ const Trainers = () => {
       website: "https://www.facebook.com/TDW3LLNESS/",
     },
     {
-      image: trav,
+      image: pete,
       name: "Travis Dav",
       bio: 'Travis is a certified NASM-CPT and CNC trainer with a background in competitive powerlifting, football, track, and tactical sports conditioning. He uses the TD wellness model, which employs a "C.O.M.P.A.S.S" approach to help individuals gain vitality and improve their health and longevity. Travis offers personalized and adaptable programs for high school athletes, rehabilitating adults, and anyone in between.',
       website: "https://www.facebook.com/TDW3LLNESS/",
     },
-
   ];
 
   return (
-    <div id="trainers" className="trainers-section">
+    <div className="trainers-section">
       <h2 className="section-title-trainers">Meet Our Trainers</h2>
       <div className="container-trainers">
         <a className="trainingform" href="#trainingform">
@@ -65,7 +65,7 @@ const Trainers = () => {
             image={trainer.image}
             name={trainer.name}
             bio={trainer.bio}
-            website={trainer.website}
+            website={trainer.website} 
           />
         ))}
       </div>
