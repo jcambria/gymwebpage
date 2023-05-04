@@ -84,7 +84,7 @@ function ClassDescription() {
 
   return (
     <div className="class__classes">
-      <h2 className="classes__title">More About Class</h2>
+      <h2 className="classes__title">Class Details</h2>
     <div className="class-description">
       <h2 className="class-description__title">{title}</h2>
       <p className="class-description__description">{description}</p>
