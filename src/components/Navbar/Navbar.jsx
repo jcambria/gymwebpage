@@ -70,24 +70,6 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="p__opensans">
-                <a
-                  href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-cscgroup#/"
-                  target="_blank"
-                >
-                  Class Schedule
-                  <hr className="navbar-hr" />
-                </a>
-              </li>
-              <li className="p__opensans">
-                <a
-                  href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-csckids#/"
-                  target="_blank"
-                >
-                  Child Care
-                  <hr className="navbar-hr" />
-                </a>
-              </li>
-              <li className="p__opensans">
                 <a href="#healthclub" onClick={() => setToggleMenu(false)}>
                   Health Club
                   <hr className="navbar-hr" />
@@ -111,6 +93,26 @@ const Navbar = () => {
                   <hr className="navbar-hr" />
                 </a>
               </li>
+              <li className="p__opensans">
+                <a
+                  href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-cscgroup#/"
+                  target="_blank"
+                >
+                  Class Schedule
+                  <hr className="navbar-hr" />
+                </a>
+              </li>
+              <li className="p__opensans">
+                <a
+                  href="https://www.signupgenius.com/go/30e0d49ada82dabfe3-csckids#/"
+                  target="_blank"
+                >
+                  Child Care
+                  <hr className="navbar-hr" />
+                </a>
+              </li>
+          
+             
             </ul>
           </div>
         )}
