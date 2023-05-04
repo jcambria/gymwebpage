@@ -21,8 +21,9 @@
 }
 
 .pricingTitle {
+  text-align: center;
   color: #de6f23;
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 16px;
 }
 

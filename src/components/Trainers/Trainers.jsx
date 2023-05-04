@@ -44,9 +44,11 @@ const Trainers = () => {
     },
     {
       image: pete,
-      name: "Travis Dav",
-      bio: 'Travis is a certified NASM-CPT and CNC trainer with a background in competitive powerlifting, football, track, and tactical sports conditioning. He uses the TD wellness model, which employs a "C.O.M.P.A.S.S" approach to help individuals gain vitality and improve their health and longevity. Travis offers personalized and adaptable programs for high school athletes, rehabilitating adults, and anyone in between.',
+      name: "Peter McCann",
+      bio: ' Peter believes that physical fitness can unlock dormant abilities and improve every aspect of life. For a decade, he has coached athletes to improve their strength, power, and speed. Peter has helped people of all ages discover their athleticism through better movement patterns and resistance training. As a CSC trainer, he feels privileged to serve the community and help individuals realize their potential.',
       website: "https://www.facebook.com/TDW3LLNESS/",
+      
+    
     },
   ];
 
@@ -55,7 +57,7 @@ const Trainers = () => {
       <h2 className="section-title-trainers">Meet Our Trainers</h2>
       <div className="container-trainers">
         <a className="trainingform" href="#trainingform">
-          Find your trainer
+          Find the trainer for you
         </a>
       </div>
       <div className="trainers-container">

@@ -32,7 +32,7 @@ const ContactUs = () => {
     
     <section>
       <div>
-        <h2>Training Questionnaire</h2>
+        <h2 className="questions" >Training Questionnaire</h2>
         <form ref={form} onSubmit={sendEmail}>
           <input type="email" placeholder="Email" name="user_email" required />
 

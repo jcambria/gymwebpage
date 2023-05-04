@@ -110,7 +110,7 @@ const WhatWeOffer = () => {
               onClick={() => handleOfferItemClick("personal-lockers")}
             >
               <img
-                src="https://www.cleanlink.com/resources/editorial/2019/locker-room-57700.jpg"
+                src=""
                 alt="Offer 5"
                 className="offer-item-image"
               />
@@ -147,7 +147,7 @@ const WhatWeOffer = () => {
           <PricingComponent />
         </div>
         <div>
-          <h2 className="ourclasses">More About Our Classes</h2>
+          {/* <h2 className="ourclasses">More About Our Classes</h2> */}
         </div>
         <ClassDescription />
       </div>
