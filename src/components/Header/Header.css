@@ -27,7 +27,6 @@ body{
     
 }
 
-
 .welcome .p__text {
     letter-spacing: 4px;
     font-size: 22px;
@@ -237,6 +236,12 @@ body{
 width: 100px;
 }
 }
+@media only screen and (max-width: 320px) {
+ .welcome h1 {
+    font-size: 28px;
+  }
+}
+
 
 
   
