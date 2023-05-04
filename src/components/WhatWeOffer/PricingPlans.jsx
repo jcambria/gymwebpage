@@ -25,11 +25,11 @@ const PricingComponent = () => {
           <div className="pricingCardContainer">
             <div className="pricingCard">
               <h3>Free Pass</h3>
-              <p>One week (vaild local ID required) </p>
+              <p>One week (valid local ID required) </p>
               <ul>
                 <li>Full gym access</li>
-                <li>Child care plans</li>
                 <li>Unlimted classes</li>
+               
               </ul>
               <a href="#here" className="findoutmore">
                 Questions?
@@ -41,9 +41,9 @@ const PricingComponent = () => {
               <p></p>
               <ul>
                 <li>One month</li>
-                <li>$</li>
+                <li>$70</li>
                 <li>Three month</li>
-                <li>$</li>
+                <li>$180</li>
               </ul>
               <a href="#here" className="findoutmore">
                 Questions?
@@ -53,9 +53,9 @@ const PricingComponent = () => {
               <h3>1 Year</h3>
               <p>$40/month</p>
               <ul>
-                <li>Full gym access</li>
-                <li>Child care plans</li>
+              <li>Full gym access</li>
                 <li>Unlimted classes</li>
+                
               </ul>
               <a href="#here" className="findoutmore">
                 Questions?
@@ -65,9 +65,9 @@ const PricingComponent = () => {
               <h3>2 Year</h3>
               <p>$30/month</p>
               <ul>
-                <li>Full gym access</li>
-                <li>Child care plans</li>
+              <li>Full gym access</li>
                 <li>Unlimted classes</li>
+                
               </ul>
               <a href="#here" className="findoutmore">
                 Questions?
@@ -86,6 +86,7 @@ const PricingComponent = () => {
           </p>
           <div className="moreOn-memberships">
             <li>Family member plans</li>
+            <li>Child care plans available</li>
             <li>$10 day pass</li>
           </div>
         </div>

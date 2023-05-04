@@ -4,12 +4,6 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const classData = [
   {
-    title: "Class Descriptions",
-    description:
-      "Click the arrows to see more details about our classes",
-  },
-  
-  {
     title: "Cardio Blast ",
     description:
       "A hi-low cardio workout designed to get your heart pumping and burn calories. Great for all levels!",

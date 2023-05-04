@@ -18,7 +18,7 @@
 }
 
 .app__navbar-logo img {
-    width: 160px;
+    width: 140px;
 }
 
 .app__navbar-links {
@@ -33,7 +33,7 @@
 }
 
 .app__navbar-links li {
-    /* font-size: 18px; */
+    font-size: 20px;
     color: black;
     margin: 0 .6rem;
     cursor: pointer; 
@@ -64,7 +64,7 @@
     /* color: rgba(255, 4, 4, 0.686); */
     /* color: #e91515e2; */
     color: #de6f23;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 600;
     margin: 0 .8rem;
     text-decoration: none;
@@ -114,7 +114,7 @@
 .app__navbar-smallscreen_links li {
     margin: 2.3rem;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.3rem;
     text-align: center;
   
 }
