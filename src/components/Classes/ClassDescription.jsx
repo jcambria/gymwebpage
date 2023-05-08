@@ -93,7 +93,7 @@ function ClassDescription() {
           className="class-description__icon"
           onClick={handlePrevClick}
         />
-        <FaArrowRight id="trainers"
+        <FaArrowRight
           className="class-description__icon"
           onClick={handleNextClick}
         />

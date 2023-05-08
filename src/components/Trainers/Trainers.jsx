@@ -4,7 +4,7 @@ import "./Trainers.css";
 import todd from "./todd.jpeg";
 import heather from "./heather.jpeg";
 import trav from "./trav.jpeg";
-import pete from './pete.jpg'
+import pete from "./pete.jpg";
 
 const Trainer = ({ image, name, bio, website }) => (
   <div className="trainer-card">
@@ -45,29 +45,27 @@ const Trainers = () => {
     {
       image: pete,
       name: "Peter McCann",
-      bio: ' Peter believes that physical fitness can unlock dormant abilities and improve every aspect of life. For a decade, he has coached athletes to improve their strength, power, and speed. Peter has helped people of all ages discover their athleticism through better movement patterns and resistance training. As a CSC trainer, he feels privileged to serve the community and help individuals realize their potential.',
+      bio: " Peter believes that physical fitness can unlock dormant abilities and improve every aspect of life. For a decade, he has coached athletes to improve their strength, power, and speed. Peter has helped people of all ages discover their athleticism through better movement patterns and resistance training. As a CSC trainer, he feels privileged to serve the community and help individuals realize their potential.",
       website: "https://www.facebook.com/TDW3LLNESS/",
-      
-    
     },
   ];
 
   return (
-    <div className="trainers-section">
-      <h2 className="section-title-trainers">Meet Our Trainers</h2>
+    <div id="trainers" className="trainers-section">
+      <h2  className="section-title-trainers">Meet Our Trainers</h2>
       <div className="container-trainers">
-        <a className="trainingform" href="#trainingform">
+        <a  className="trainingform" href="#trainingform">
           Find the trainer for you
         </a>
       </div>
       <div className="trainers-container">
         {trainersData.map((trainer) => (
-          <Trainer 
+          <Trainer
             key={trainer.name}
             image={trainer.image}
             name={trainer.name}
             bio={trainer.bio}
-            website={trainer.website} 
+            website={trainer.website}
           />
         ))}
       </div>

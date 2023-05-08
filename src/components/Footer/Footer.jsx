@@ -88,7 +88,7 @@ const Footer = () => {
                   <span>
                     <CgCopyright className="copyright-icon" />
                   </span>
-                  <span>2023</span>
+                  <span>2023 CSC</span>
                 </div>
               </div>
             </div>

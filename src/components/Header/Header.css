@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 115vh;
+    height: 116vh;
 }
 
 .welcome h1 {
@@ -18,7 +18,7 @@ body{
     margin-top: 8%;
     letter-spacing: 3px;
     text-align: center;
-    font-size: 3.1rem;
+    font-size: 3.4rem;
     line-height: 1.2;
     margin-bottom: 12px;
     background-image: linear-gradient(to right, #de6e23, #de6f23, #de6f23, #de6e2381 );
@@ -237,7 +237,7 @@ width: 100px;
 }
 }
 @media only screen and (max-width: 320px) {
- .welcome h1 {
+  h1 {
     font-size: 28px;
   }
 }
