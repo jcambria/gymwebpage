@@ -15,7 +15,7 @@ const PricingComponent = () => {
         className={showPlans ? "hideButton" : "showButton"}
         onClick={handleButtonClick}
       >
-        {showPlans ? "Hide Details" : "Membership Plans"}
+        {showPlans ? "Hide Plans" : "Membership Plans"}
       </button>
       {showPlans && (
         <div className="pricingContainer">

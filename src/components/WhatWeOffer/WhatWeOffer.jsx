@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import "./WhatWeOffer.css";
 import PricingComponent from "./PricingPlans";
 import michele from "./michele.jpeg";
+import silverSneakers from './silverSneakers.jpeg';
+import view1 from './view1.jpeg'
+import spinning from './spinning.jpeg'
+import personalt from './personalt.jpeg';
 import ClassDescription from "../Classes/ClassDescription";
 
 const WhatWeOffer = () => {
@@ -24,7 +28,7 @@ const WhatWeOffer = () => {
               onClick={() => handleOfferItemClick("personal-training")}
             >
               <img
-                src="https://images.everydayhealth.com/images/healthy-living/fitness/should-you-get-a-personal-trainer-722x406.jpg"
+                src={personalt}
                 alt="Offer 1"
                 className="offer-item-image"
               />
@@ -45,7 +49,7 @@ const WhatWeOffer = () => {
               onClick={() => handleOfferItemClick("group-classes")}
             >
               <img
-                src="https://ymcacolumbus.org/sites/default/files/styles/media_full/public/2019-04/yoga1.jpg.webp?itok=EZ5XI93P"
+                src={spinning}
                 alt="Offer 2"
                 className="offer-item-image"
               />
@@ -66,7 +70,7 @@ const WhatWeOffer = () => {
               onClick={() => handleOfferItemClick("facilities")}
             >
               <img
-                src="https://robbreport.com/wp-content/uploads/2022/07/Himat_WeightRoom.jpg?w=1000"
+                src={view1}
                 alt="Offer 3"
                 className="offer-item-image"
               />
@@ -110,7 +114,7 @@ const WhatWeOffer = () => {
               onClick={() => handleOfferItemClick("personal-lockers")}
             >
               <img
-                src=""
+                src={silverSneakers}
                 alt="Offer 5"
                 className="offer-item-image"
               />
