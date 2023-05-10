@@ -46,7 +46,7 @@ const Trainers = () => {
       image: pete,
       name: "Peter McCann",
       bio: " Peter believes that physical fitness can unlock dormant abilities and improve every aspect of life. For a decade, he has coached athletes to improve their strength, power, and speed. Peter has helped people of all ages discover their athleticism through better movement patterns and resistance training. As a CSC trainer, he feels privileged to serve the community and help individuals realize their potential.",
-      website: "https://www.facebook.com/TDW3LLNESS/",
+      website: "https://www.instagram.com/mccann5x5/",
     },
   ];
 

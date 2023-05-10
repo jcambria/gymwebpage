@@ -28,7 +28,7 @@ const WhatWeOffer = () => {
               onClick={() => handleOfferItemClick("personal-training")}
             >
               <img
-                src={personalt}
+                src=''
                 alt="Offer 1"
                 className="offer-item-image"
               />
@@ -70,7 +70,7 @@ const WhatWeOffer = () => {
               onClick={() => handleOfferItemClick("facilities")}
             >
               <img
-                src={view1}
+                src={personalt}
                 alt="Offer 3"
                 className="offer-item-image"
               />
@@ -120,10 +120,10 @@ const WhatWeOffer = () => {
               />
               <h3 className="offer-item-title">Silver Sneakers Certified </h3>
               <p className="offer-item-description">
-                We provide lockers for safe and convenient storage of your
-                belongings while you work out. Along with the convenience of
-                shower facilities. We offer a complimentary towel service, so
-                you don't worry about bringing your own towel.
+              Silver Sneakers is a fitness program designed specifically for older adults,
+               typically 65 years and older. It offers a variety of exercise classes,
+                wellness resources, and social activities to help seniors maintain their health, 
+                fitness, and social connections.
               </p>
             </div>
           </div>
@@ -141,10 +141,10 @@ const WhatWeOffer = () => {
               />
               <h3 className="offer-item-title">Childcare</h3>
               <p className="offer-item-description">
-                We offer onsite childcare services, so you can focus on your
-                workout while your kids are in a safe and supervised
-                environment. Enjoy peace of mind knowing your kids are taken
-                care of while you prioritize your health and fitness.
+              At our facility, we understand that balancing family responsibilities with fitness
+               goals can be a challenge. That's why we offer the added convenience of onsite childcare 
+               services, staffed by qualified professionals who create a safe and supervised environment 
+               for your kids.
               </p>
             </div>
           </div>
