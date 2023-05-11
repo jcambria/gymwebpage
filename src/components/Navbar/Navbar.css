@@ -61,12 +61,11 @@
 .app__navbar-login a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
-    /* color: rgba(255, 4, 4, 0.686); */
-    /* color: #e91515e2; */
+   
     color: #de6f23;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
-    margin: 0 .1rem;
+    margin: 0 .2rem;
     text-decoration: none;
     transition: .5s ease;
 }

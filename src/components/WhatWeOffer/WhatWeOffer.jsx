@@ -3,7 +3,7 @@ import "./WhatWeOffer.css";
 import PricingComponent from "./PricingPlans";
 import michele from "./michele.jpeg";
 import silverSneakers from './silverSneakers.jpeg';
-import view1 from './view1.jpeg'
+import pt from './pt.jpeg';
 import spinning from './spinning.jpeg'
 import personalt from './personalt.jpeg';
 import ClassDescription from "../Classes/ClassDescription";
@@ -28,7 +28,7 @@ const WhatWeOffer = () => {
               onClick={() => handleOfferItemClick("personal-training")}
             >
               <img
-                src=''
+                src={pt}
                 alt="Offer 1"
                 className="offer-item-image"
               />

@@ -6,6 +6,7 @@ import heather from "./heather.jpeg";
 import trav from "./trav.jpeg";
 import pete from "./pete.jpg";
 
+
 const Trainer = ({ image, name, bio, website }) => (
   <div className="trainer-card">
     <img src={image} alt={name} className="trainer-image" />
@@ -33,7 +34,7 @@ const Trainers = () => {
     {
       image: heather,
       name: "Heather Fries",
-      bio: "Heather is an experienced personal trainer who has been an elite athlete, US Air Force officer, and general manager in the Sports Nutrition and healthcare industries. With personalized training programs, she accommodate busy schedules, injuries, and muscle imbalances while coaching for corrective movement, weight loss, muscle toning, and sports performance. Dont let health stand between you and your day.",
+      bio: "Heather is NASM certified personal trainer and Corrective Exercise Specialist who has been an elite athlete, US Air Force officer, and general manager in the Sports Nutrition and Food & Healthcare Industries. She specializes in developing “goal-oriented” personalized training programs accommodating injuries and limitations while coaching for weight loss, muscle & strength development, and functional fitness.  Learn how to Exercise Smarter, Feel Stronger, and Live Better.",
       website: "https://friestraining.com/",
     },
     {
